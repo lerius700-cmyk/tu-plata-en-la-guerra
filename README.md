@@ -1,6 +1,6 @@
 # Tu plata en la guerra, tu opinión en venta
 
-> ### 📖 **LEE LA INVESTIGACIÓN AQUÍ:** [https://TU-USER.github.io/tu-plata-en-la-guerra/](https://TU-USER.github.io/tu-plata-en-la-guerra/)
+> ### 📖 **LEE LA INVESTIGACIÓN AQUÍ:** [https://lerius700-cmyk.github.io/tu-plata-en-la-guerra/](https://lerius700-cmyk.github.io/tu-plata-en-la-guerra/)
 >
 > *(Reemplaza `TU-USER` por tu nombre de usuario de GitHub una vez deployed)*
 
@@ -28,7 +28,7 @@ Para publicar la página, sigue [`DEPLOY.md`](DEPLOY.md). En resumen:
 1. Crea un repo público en GitHub
 2. Conecta y haz push
 3. Activa GitHub Pages (Settings → Pages → `main` branch + `/ (root)`)
-4. Tu URL pública: `https://TU-USER.github.io/tu-plata-en-la-guerra/`
+4. Tu URL pública: `https://lerius700-cmyk.github.io/tu-plata-en-la-guerra/`
 
 ## 📂 Estructura completa
 
