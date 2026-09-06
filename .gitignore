@@ -1,0 +1,30 @@
+# SDD scratch (Mavis internal workspace)
+.superpowers/
+
+# Build/runtime artifacts
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+grammar_audit_run*.log
+link_audit_run*.log
+
+# Scratch tools (artifacts of one-off work)
+tools/sections.txt
+tools/add_inline_links.py
+
+# Node.js (no se usa en runtime, pero por si acaso)
+node_modules/
+package-lock.json
+
+# Local environment
+.env
+.env.local
+*.local
+
+# Editor
+.vscode/
+.idea/

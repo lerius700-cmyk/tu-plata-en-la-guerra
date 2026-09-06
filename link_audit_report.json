@@ -1,0 +1,2995 @@
+{
+  "total": 433,
+  "broken": 63,
+  "results": [
+    {
+      "url": "#resumen",
+      "status": "ok",
+      "httpCode": null,
+      "error": null
+    },
+    {
+      "url": "#la-pulla",
+      "status": "ok",
+      "httpCode": null,
+      "error": null
+    },
+    {
+      "url": "#pensiones",
+      "status": "ok",
+      "httpCode": null,
+      "error": null
+    },
+    {
+      "url": "#noruega",
+      "status": "ok",
+      "httpCode": null,
+      "error": null
+    },
+    {
+      "url": "#albanese",
+      "status": "ok",
+      "httpCode": null,
+      "error": null
+    },
+    {
+      "url": "#italia",
+      "status": "ok",
+      "httpCode": null,
+      "error": null
+    },
+    {
+      "url": "#empresas",
+      "status": "ok",
+      "httpCode": null,
+      "error": null
+    },
+    {
+      "url": "#pruebas",
+      "status": "ok",
+      "httpCode": null,
+      "error": null
+    },
+    {
+      "url": "#cerimedo",
+      "status": "ok",
+      "httpCode": null,
+      "error": null
+    },
+    {
+      "url": "#negre",
+      "status": "ok",
+      "httpCode": null,
+      "error": null
+    },
+    {
+      "url": "#bautista",
+      "status": "ok",
+      "httpCode": null,
+      "error": null
+    },
+    {
+      "url": "#elecciones",
+      "status": "ok",
+      "httpCode": null,
+      "error": null
+    },
+    {
+      "url": "#medios",
+      "status": "ok",
+      "httpCode": null,
+      "error": null
+    },
+    {
+      "url": "#metodologia",
+      "status": "ok",
+      "httpCode": null,
+      "error": null
+    },
+    {
+      "url": "#pensiones",
+      "status": "ok",
+      "httpCode": null,
+      "error": null
+    },
+    {
+      "url": "#negre",
+      "status": "ok",
+      "httpCode": null,
+      "error": null
+    },
+    {
+      "url": "#medios",
+      "status": "ok",
+      "httpCode": null,
+      "error": null
+    },
+    {
+      "url": "#prueba-4",
+      "status": "ok",
+      "httpCode": null,
+      "error": null
+    },
+    {
+      "url": "#prueba-14",
+      "status": "ok",
+      "httpCode": null,
+      "error": null
+    },
+    {
+      "url": "#prueba-12",
+      "status": "ok",
+      "httpCode": null,
+      "error": null
+    },
+    {
+      "url": "#prueba-3",
+      "status": "ok",
+      "httpCode": null,
+      "error": null
+    },
+    {
+      "url": "#prueba-14",
+      "status": "ok",
+      "httpCode": null,
+      "error": null
+    },
+    {
+      "url": "#prueba-4",
+      "status": "ok",
+      "httpCode": null,
+      "error": null
+    },
+    {
+      "url": "#prueba-1",
+      "status": "ok",
+      "httpCode": null,
+      "error": null
+    },
+    {
+      "url": "#prueba-2",
+      "status": "ok",
+      "httpCode": null,
+      "error": null
+    },
+    {
+      "url": "#prueba-3",
+      "status": "ok",
+      "httpCode": null,
+      "error": null
+    },
+    {
+      "url": "#prueba-4",
+      "status": "ok",
+      "httpCode": null,
+      "error": null
+    },
+    {
+      "url": "#prueba-5",
+      "status": "ok",
+      "httpCode": null,
+      "error": null
+    },
+    {
+      "url": "#prueba-6",
+      "status": "ok",
+      "httpCode": null,
+      "error": null
+    },
+    {
+      "url": "#prueba-7",
+      "status": "ok",
+      "httpCode": null,
+      "error": null
+    },
+    {
+      "url": "#prueba-8",
+      "status": "ok",
+      "httpCode": null,
+      "error": null
+    },
+    {
+      "url": "#prueba-9",
+      "status": "ok",
+      "httpCode": null,
+      "error": null
+    },
+    {
+      "url": "#prueba-10",
+      "status": "ok",
+      "httpCode": null,
+      "error": null
+    },
+    {
+      "url": "#prueba-11",
+      "status": "ok",
+      "httpCode": null,
+      "error": null
+    },
+    {
+      "url": "#prueba-12",
+      "status": "ok",
+      "httpCode": null,
+      "error": null
+    },
+    {
+      "url": "#prueba-13",
+      "status": "ok",
+      "httpCode": null,
+      "error": null
+    },
+    {
+      "url": "#prueba-14",
+      "status": "ok",
+      "httpCode": null,
+      "error": null
+    },
+    {
+      "url": "#prueba-15",
+      "status": "ok",
+      "httpCode": null,
+      "error": null
+    },
+    {
+      "url": "#prueba-1",
+      "status": "ok",
+      "httpCode": null,
+      "error": null
+    },
+    {
+      "url": "#pruebas",
+      "status": "ok",
+      "httpCode": null,
+      "error": null
+    },
+    {
+      "url": "#pruebas",
+      "status": "ok",
+      "httpCode": null,
+      "error": null
+    },
+    {
+      "url": "https://cuestionpublica.com/felicidades-tus-ahorros-siguen-creciendo-con-el-bombardeo-de-ninos-en-gaza/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L607"
+    },
+    {
+      "url": "https://www.un.org/unispal/document/special-rapporteur-report-gaza-genocide-a-collective-crime-20oct25/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L615"
+    },
+    {
+      "url": "https://www.infobae.com/america/america-latina/2026/08/29/fernando-cerimedo-declaro-ante-la-justicia-de-bolivia-y-dijo-que-gana-cerca-de-un-millon-de-dolares-por-mes/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L619"
+    },
+    {
+      "url": "https://razonpublica.com/la-registraduria-nacional-una-mina-de-oro/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L623"
+    },
+    {
+      "url": "https://www.porvenir.com.co/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L645"
+    },
+    {
+      "url": "https://www.proteccion.com/",
+      "status": "ok",
+      "httpCode": 301,
+      "error": null,
+      "context": "L645"
+    },
+    {
+      "url": "https://www.colfondos.com.co/",
+      "status": "broken",
+      "httpCode": 403,
+      "error": null,
+      "context": "L645"
+    },
+    {
+      "url": "https://www.skandia.com.co/",
+      "status": "ok",
+      "httpCode": 302,
+      "error": null,
+      "context": "L645"
+    },
+    {
+      "url": "https://www.blackrock.com/co",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L646"
+    },
+    {
+      "url": "https://investor.vanguard.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L646"
+    },
+    {
+      "url": "https://www.barclays.co.uk/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L646"
+    },
+    {
+      "url": "https://www.jpmorgan.com/",
+      "status": "ok",
+      "httpCode": 302,
+      "error": null,
+      "context": "L646"
+    },
+    {
+      "url": "https://www.invesco.com/",
+      "status": "ok",
+      "httpCode": 301,
+      "error": null,
+      "context": "L646"
+    },
+    {
+      "url": "https://elbitsystems.com/",
+      "status": "ok",
+      "httpCode": 301,
+      "error": null,
+      "context": "L646"
+    },
+    {
+      "url": "https://www.lockheedmartin.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L646"
+    },
+    {
+      "url": "https://www.leonardo.com/en",
+      "status": "ok",
+      "httpCode": 301,
+      "error": null,
+      "context": "L646"
+    },
+    {
+      "url": "https://www.caterpillar.com/",
+      "status": "broken",
+      "httpCode": 403,
+      "error": null,
+      "context": "L646"
+    },
+    {
+      "url": "https://www.palantir.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L646"
+    },
+    {
+      "url": "https://www.lockheedmartin.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L647"
+    },
+    {
+      "url": "https://www.un.org/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L648"
+    },
+    {
+      "url": "https://www.ohchr.org/en/special-procedures/sr-palestine",
+      "status": "broken",
+      "httpCode": 403,
+      "error": null,
+      "context": "L648"
+    },
+    {
+      "url": "https://www.regjeringen.no/en/topics/the-economy/the-government-pension-fund/",
+      "status": "broken",
+      "httpCode": 403,
+      "error": null,
+      "context": "L649"
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/Gustavo_Petro",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L650"
+    },
+    {
+      "url": "https://cuestionpublica.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L650"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Fernando_Cerimedo",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L651"
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/Rodrigo_Paz_Pereira",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L651"
+    },
+    {
+      "url": "https://www.lasillavacia.com/silla-nacional/la-conexion-de-abelardo-con-exsocio-de-cerimedo-y-la-nueva-derecha-internacional/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L652"
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/Abelardo_de_la_Espriella",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L652"
+    },
+    {
+      "url": "https://www.thomasgreg.com/",
+      "status": "error",
+      "httpCode": null,
+      "error": "certificate has expired",
+      "context": "L653"
+    },
+    {
+      "url": "https://www.thomasgreg.com/",
+      "status": "error",
+      "httpCode": null,
+      "error": "certificate has expired",
+      "context": "L653"
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/Gustavo_Petro",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L653"
+    },
+    {
+      "url": "https://www.lasillavacia.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L654"
+    },
+    {
+      "url": "https://www.usaid.gov/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L654"
+    },
+    {
+      "url": "https://about.meta.com/",
+      "status": "ok",
+      "httpCode": 301,
+      "error": null,
+      "context": "L654"
+    },
+    {
+      "url": "https://colombiacheck.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L654"
+    },
+    {
+      "url": "https://www.ned.org/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L654"
+    },
+    {
+      "url": "https://www.youtube.com/@LaPulla",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L654"
+    },
+    {
+      "url": "https://www.opensocietyfoundations.org/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L654"
+    },
+    {
+      "url": "https://www.youtube.com/@LaPulla",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L662"
+    },
+    {
+      "url": "https://www.valorem.com.co/",
+      "status": "ok",
+      "httpCode": 301,
+      "error": null,
+      "context": "L662"
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/Julio_Mario_Santo_Domingo",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L662"
+    },
+    {
+      "url": "https://comunicansa.com/",
+      "status": "error",
+      "httpCode": null,
+      "error": "getaddrinfo ENOTFOUND comunicansa.com",
+      "context": "L662"
+    },
+    {
+      "url": "https://www.elespectador.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L663"
+    },
+    {
+      "url": "http://www.colombia.mom-gmr.org/es/media/detail/outlet/el-espectadorcom/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L752"
+    },
+    {
+      "url": "https://valorem.com.co/acerca-de-valorem/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L753"
+    },
+    {
+      "url": "https://www.portafolio.co/negocios/empresas/quien-es-la-familia-santo-domingo-duenos-del-d1-que-aporto-100-000-millones-tras-el-terremoto-en-colombia-500475",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L754"
+    },
+    {
+      "url": "https://www.portafolio.co/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L754"
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/La_Pulla",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L755"
+    },
+    {
+      "url": "https://es.wikipedia.org/",
+      "status": "ok",
+      "httpCode": 301,
+      "error": null,
+      "context": "L755"
+    },
+    {
+      "url": "https://pluralidadz.com/politica/maria-paulina-baena-el-odio-en-redes-sociales-era-muy-abrumador/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L756"
+    },
+    {
+      "url": "https://www.lasillavacia.com/en-vivo/cambios-en-la-pulla-se-va-maria-paulina-baena/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L757"
+    },
+    {
+      "url": "https://cuestionpublica.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L765"
+    },
+    {
+      "url": "https://www.aporteresolidario.com/",
+      "status": "error",
+      "httpCode": null,
+      "error": "getaddrinfo ENOTFOUND www.aporteresolidario.com",
+      "context": "L782"
+    },
+    {
+      "url": "https://cuestionpublica.com/felicidades-tus-ahorros-siguen-creciendo-con-el-bombardeo-de-ninos-en-gaza/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L791"
+    },
+    {
+      "url": "https://cuestionpublica.com/felicidades-tus-ahorros-siguen-creciendo-con-el-bombardeo-de-ninos-en-gaza/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L797"
+    },
+    {
+      "url": "https://cuestionpublica.com/felicidades-tus-ahorros-siguen-creciendo-con-el-bombardeo-de-ninos-en-gaza/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L803"
+    },
+    {
+      "url": "https://www.ishares.com/es/latinoamerica",
+      "status": "ok",
+      "httpCode": 301,
+      "error": null,
+      "context": "L814"
+    },
+    {
+      "url": "https://investor.vanguard.com/investment-products/etfs",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L820"
+    },
+    {
+      "url": "https://www.barclays.co.uk/investments/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L826"
+    },
+    {
+      "url": "https://am.jpmorgan.com/us/en/asset-management",
+      "status": "ok",
+      "httpCode": 301,
+      "error": null,
+      "context": "L832"
+    },
+    {
+      "url": "https://www.invesco.com/",
+      "status": "ok",
+      "httpCode": 301,
+      "error": null,
+      "context": "L838"
+    },
+    {
+      "url": "https://www.un.org/unispal/document/special-rapporteur-report-gaza-genocide-a-collective-crime-20oct25/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L883"
+    },
+    {
+      "url": "https://cuestionpublica.com/felicidades-tus-ahorros-siguen-creciendo-con-el-bombardeo-de-ninos-en-gaza/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L899"
+    },
+    {
+      "url": "https://cuestionpublica.com/felicidades-tus-ahorros-siguen-creciendo-con-el-bombardeo-de-ninos-en-gaza/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L903"
+    },
+    {
+      "url": "https://cuestionpublica.com/felicidades-tus-ahorros-siguen-creciendo-con-el-bombardeo-de-ninos-en-gaza/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L907"
+    },
+    {
+      "url": "https://cuestionpublica.com/felicidades-tus-ahorros-siguen-creciendo-con-el-bombardeo-de-ninos-en-gaza/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L911"
+    },
+    {
+      "url": "https://cuestionpublica.com/felicidades-tus-ahorros-siguen-creciendo-con-el-bombardeo-de-ninos-en-gaza/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L915"
+    },
+    {
+      "url": "https://www.semana.com/economia/articulo/iniciativa-polemica-el-gobierno-busca-repatriar-los-recursos-que-tienen-los-fondos-de-pensiones-en-el-exterior-y-la-rentabilidad/202555/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L919"
+    },
+    {
+      "url": "https://www.porvenir.com.co/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L931"
+    },
+    {
+      "url": "https://www.grupoaval.com/",
+      "status": "timeout",
+      "httpCode": null,
+      "error": "timeout > 8s",
+      "context": "L931"
+    },
+    {
+      "url": "https://www.blackrock.com/co",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L931"
+    },
+    {
+      "url": "https://elbitsystems.com/",
+      "status": "ok",
+      "httpCode": 301,
+      "error": null,
+      "context": "L931"
+    },
+    {
+      "url": "https://www.proteccion.com/",
+      "status": "ok",
+      "httpCode": 301,
+      "error": null,
+      "context": "L932"
+    },
+    {
+      "url": "https://www.colfondos.com.co/",
+      "status": "broken",
+      "httpCode": 403,
+      "error": null,
+      "context": "L932"
+    },
+    {
+      "url": "https://www.barclays.co.uk/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L932"
+    },
+    {
+      "url": "https://investor.vanguard.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L933"
+    },
+    {
+      "url": "https://www.jpmorgan.com/",
+      "status": "ok",
+      "httpCode": 302,
+      "error": null,
+      "context": "L945"
+    },
+    {
+      "url": "https://www.invesco.com/",
+      "status": "ok",
+      "httpCode": 301,
+      "error": null,
+      "context": "L949"
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/Gustavo_Petro",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L958"
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/Gustavo_Petro",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L969"
+    },
+    {
+      "url": "https://www.ciperchile.cl/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L979"
+    },
+    {
+      "url": "https://www.lockheedmartin.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L984"
+    },
+    {
+      "url": "https://www.leonardo.com/en",
+      "status": "ok",
+      "httpCode": 301,
+      "error": null,
+      "context": "L984"
+    },
+    {
+      "url": "https://www.palantir.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L984"
+    },
+    {
+      "url": "https://cuestionpublica.com/felicidades-tus-ahorros-siguen-creciendo-con-el-bombardeo-de-ninos-en-gaza/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L993"
+    },
+    {
+      "url": "https://www.ciperchile.cl/2025/10/13/al-menos-us-34-millones-administrados-por-las-afp-terminaron-en-companias-acusadas-de-beneficiarse-con-la-tragedia-en-gaza/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L994"
+    },
+    {
+      "url": "https://www.semana.com/economia/articulo/iniciativa-polemica-el-gobierno-busca-repatriar-los-recursos-que-tienen-los-fondos-de-pensiones-en-el-exterior-y-la-rentabilidad/202555/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L995"
+    },
+    {
+      "url": "https://www.semana.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L995"
+    },
+    {
+      "url": "https://www.infobae.com/colombia/2025/12/14/cambio-en-el-destino-del-ahorro-de-las-pensiones-habria-generado-la-renuncia-de-decenas-de-funcionarios-del-gobierno-petro/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L996"
+    },
+    {
+      "url": "https://www.infobae.com/",
+      "status": "ok",
+      "httpCode": 301,
+      "error": null,
+      "context": "L996"
+    },
+    {
+      "url": "https://www.infobae.com/colombia/2026/01/21/gobierno-petro-defendio-nueva-regla-sobre-pensiones-y-dejo-claro-que-ahora-los-inversores-tienen-dos-alternativas-con-la-plata/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L997"
+    },
+    {
+      "url": "https://www.elespectador.com/economia/gobierno-avanza-en-plan-para-traer-ahorro-pensional-al-pais-esto-dice-borrador-de-decreto/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L998"
+    },
+    {
+      "url": "https://www.pulzo.com/economia/gustavo-petro-insiste-repatriar-dinero-pensiones-fondos-privados-PP4984307",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L999"
+    },
+    {
+      "url": "https://www.regjeringen.no/",
+      "status": "broken",
+      "httpCode": 403,
+      "error": null,
+      "context": "L1004"
+    },
+    {
+      "url": "https://www.regjeringen.no/",
+      "status": "broken",
+      "httpCode": 403,
+      "error": null,
+      "context": "L1006"
+    },
+    {
+      "url": "https://www.caterpillar.com/",
+      "status": "broken",
+      "httpCode": 403,
+      "error": null,
+      "context": "L1007"
+    },
+    {
+      "url": "https://www.regjeringen.no/en/topics/the-economy/the-government-pension-fund/",
+      "status": "broken",
+      "httpCode": 403,
+      "error": null,
+      "context": "L1012"
+    },
+    {
+      "url": "https://www.regjeringen.no/en/topics/the-economy/the-government-pension-fund/",
+      "status": "broken",
+      "httpCode": 403,
+      "error": null,
+      "context": "L1039"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Jens_Stoltenberg",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1044"
+    },
+    {
+      "url": "https://www.nato.int/",
+      "status": "ok",
+      "httpCode": 301,
+      "error": null,
+      "context": "L1044"
+    },
+    {
+      "url": "https://www.blackrock.com/co",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1054"
+    },
+    {
+      "url": "https://investor.vanguard.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1054"
+    },
+    {
+      "url": "https://www.regjeringen.no/en/documents/annual-report-2025/id3152102/?ch=5",
+      "status": "broken",
+      "httpCode": 403,
+      "error": null,
+      "context": "L1062"
+    },
+    {
+      "url": "https://elpais.com/economia/negocios/2025-09-23/caterpillar-levanta-un-imperio-sobre-los-escombros.html",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1063"
+    },
+    {
+      "url": "https://www.elsaltodiario.com/ocupacion-israeli/colaborar-israel-territorios-ocupados-se-convierte-un-mal-negocio-empresas-espanolas",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1064"
+    },
+    {
+      "url": "https://cincodias.elpais.com/mercados-financieros/2025-09-13/las-grandes-gestoras-ignoran-a-gaza-en-sus-politicas-de-inversion-responsable.html",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1065"
+    },
+    {
+      "url": "https://www.jns.org/israel-news/amid-us-pressure-norway-halts-sovereign-wealth-funds-boycott-of-israel",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1066"
+    },
+    {
+      "url": "https://www.cnbc.com/2025/09/04/white-house-hits-out-at-norway-wealth-fund-over-caterpillar-exit.html",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1067"
+    },
+    {
+      "url": "https://forbes.es/economia/823981/noruega-suspende-las-desinversiones-eticas-de-su-fondo-soberano/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1068"
+    },
+    {
+      "url": "https://www.forbes.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1068"
+    },
+    {
+      "url": "https://www.ohchr.org/en/special-procedures/sr-palestine",
+      "status": "broken",
+      "httpCode": 403,
+      "error": null,
+      "context": "L1073"
+    },
+    {
+      "url": "https://www.ohchr.org/en/special-procedures/sr-palestine",
+      "status": "broken",
+      "httpCode": 403,
+      "error": null,
+      "context": "L1075"
+    },
+    {
+      "url": "https://www.un.org/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1076"
+    },
+    {
+      "url": "https://www.ohchr.org/en/special-procedures/sr-palestine",
+      "status": "broken",
+      "httpCode": 403,
+      "error": null,
+      "context": "L1079"
+    },
+    {
+      "url": "https://www.un.org/unispal/document/special-rapporteur-report-gaza-genocide-a-collective-crime-20oct25/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1127"
+    },
+    {
+      "url": "https://elpais.com/internacional/2025-10-28/la-relatora-de-la-onu-para-palestina-acusa-a-comunidad-internacional-de-complicidad-en-la-ofensiva-israeli-en-gaza.html",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1128"
+    },
+    {
+      "url": "https://www.sinembargo.mx/4816515/francesca-decidio-denunciar-el-genocidio-en-gaza-eu-e-israel-la-persiguen-close-up/",
+      "status": "broken",
+      "httpCode": 403,
+      "error": null,
+      "context": "L1129"
+    },
+    {
+      "url": "https://www.thenation.com/article/world/francesca-albanese-interview-palestine/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1130"
+    },
+    {
+      "url": "https://www.resumenlatinoamericano.org/2025/11/16/palestina-entrevista-a-francesca-albanese-los-estados-miembros-complices-del-genocidio-israeli/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1131"
+    },
+    {
+      "url": "https://www.ilfattoquotidiano.it/2026/05/06/armi-italia-israele-spedizioni-militari-notizie/8376959/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1142"
+    },
+    {
+      "url": "https://www.lindipendente.online/2025/10/20/un-rapporto-fa-luce-sui-legami-tra-leonardo-spa-e-il-genocidio-israeliano-a-gaza/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1146"
+    },
+    {
+      "url": "https://www.lindipendente.online/2025/10/20/un-rapporto-fa-luce-sui-legami-tra-leonardo-spa-e-il-genocidio-israeliano-a-gaza/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1150"
+    },
+    {
+      "url": "https://www.leonardo.com/en/investors",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1154"
+    },
+    {
+      "url": "https://www.ilfattoquotidiano.it/2026/05/06/armi-italia-israele-spedizioni-militari-notizie/8376959/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1158"
+    },
+    {
+      "url": "https://www.istat.it/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1162"
+    },
+    {
+      "url": "https://www.leonardo.com/en",
+      "status": "ok",
+      "httpCode": 301,
+      "error": null,
+      "context": "L1168"
+    },
+    {
+      "url": "https://www.leonardo.com/en",
+      "status": "ok",
+      "httpCode": 301,
+      "error": null,
+      "context": "L1174"
+    },
+    {
+      "url": "https://elbitsystems.com/",
+      "status": "ok",
+      "httpCode": 301,
+      "error": null,
+      "context": "L1190"
+    },
+    {
+      "url": "https://www.leonardo.com/en",
+      "status": "ok",
+      "httpCode": 301,
+      "error": null,
+      "context": "L1196"
+    },
+    {
+      "url": "https://www.ohchr.org/en/special-procedures/sr-palestine",
+      "status": "broken",
+      "httpCode": 403,
+      "error": null,
+      "context": "L1198"
+    },
+    {
+      "url": "https://www.leonardo.com/en",
+      "status": "ok",
+      "httpCode": 301,
+      "error": null,
+      "context": "L1200"
+    },
+    {
+      "url": "https://www.ilfattoquotidiano.it/2026/05/06/armi-italia-israele-spedizioni-militari-notizie/8376959/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1217"
+    },
+    {
+      "url": "https://it.euronews.com/2025/10/30/francesca-albanese-accusa-63-paesi-di-complicita-nel-genocidio-a-gaza-ce-anche-litalia",
+      "status": "broken",
+      "httpCode": 406,
+      "error": null,
+      "context": "L1218"
+    },
+    {
+      "url": "https://www.lindipendente.online/2025/10/20/un-rapporto-fa-luce-sui-legami-tra-leonardo-spa-e-il-genocidio-israeliano-a-gaza/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1219"
+    },
+    {
+      "url": "https://infodifesa.it/leonardo-e-lombra-di-gaza-cingolani-contrattacca-tra-accuse-onu-e-realpolitik-della-difesa/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1220"
+    },
+    {
+      "url": "https://laviniamarchetti.altervista.org/francesca-albanese-presenta-il-rapporto-onu-genocidio-di-gaza-un-crimine-collettivo-alla-camera-3-febbraio-2026/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1221"
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/Genocidio_palestino_en_Gaza",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1222"
+    },
+    {
+      "url": "https://es.wikipedia.org/",
+      "status": "ok",
+      "httpCode": 301,
+      "error": null,
+      "context": "L1222"
+    },
+    {
+      "url": "https://www.ohchr.org/en/special-procedures/sr-palestine",
+      "status": "broken",
+      "httpCode": 403,
+      "error": null,
+      "context": "L1230"
+    },
+    {
+      "url": "https://cuestionpublica.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1230"
+    },
+    {
+      "url": "https://elbitsystems.com/",
+      "status": "ok",
+      "httpCode": 301,
+      "error": null,
+      "context": "L1244"
+    },
+    {
+      "url": "https://www.porvenir.com.co/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1248"
+    },
+    {
+      "url": "https://www.lockheedmartin.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1251"
+    },
+    {
+      "url": "https://www.blackrock.com/co",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1255"
+    },
+    {
+      "url": "https://investor.vanguard.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1255"
+    },
+    {
+      "url": "https://www.leonardo.com/en",
+      "status": "ok",
+      "httpCode": 301,
+      "error": null,
+      "context": "L1258"
+    },
+    {
+      "url": "https://www.invesco.com/",
+      "status": "ok",
+      "httpCode": 301,
+      "error": null,
+      "context": "L1262"
+    },
+    {
+      "url": "https://www.jpmorgan.com/",
+      "status": "ok",
+      "httpCode": 302,
+      "error": null,
+      "context": "L1262"
+    },
+    {
+      "url": "https://www.caterpillar.com/",
+      "status": "broken",
+      "httpCode": 403,
+      "error": null,
+      "context": "L1265"
+    },
+    {
+      "url": "https://www.palantir.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1272"
+    },
+    {
+      "url": "https://www.iai.co.il/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1279"
+    },
+    {
+      "url": "https://www.iai.co.il/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1286"
+    },
+    {
+      "url": "https://www.barclays.co.uk/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1307"
+    },
+    {
+      "url": "https://elpais.com/economia/2025-12-17/22-millones-de-euros-de-fondos-verdes-en-empresas-de-armas-israelies-la-guerra-como-inversion-sostenible.html",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1335"
+    },
+    {
+      "url": "https://cuestionpublica.com/felicidades-tus-ahorros-siguen-creciendo-con-el-bombardeo-de-ninos-en-gaza/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1336"
+    },
+    {
+      "url": "https://www.ciperchile.cl/2025/10/13/al-menos-us-34-millones-administrados-por-las-afp-terminaron-en-companias-acusadas-de-beneficiarse-con-la-tragedia-en-gaza/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1337"
+    },
+    {
+      "url": "https://www.ciperchile.cl/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1337"
+    },
+    {
+      "url": "https://www.porvenir.com.co/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1354"
+    },
+    {
+      "url": "https://www.proteccion.com/",
+      "status": "ok",
+      "httpCode": 301,
+      "error": null,
+      "context": "L1360"
+    },
+    {
+      "url": "https://www.segurossura.com.co/",
+      "status": "ok",
+      "httpCode": 302,
+      "error": null,
+      "context": "L1360"
+    },
+    {
+      "url": "https://www.skandia.com.co/",
+      "status": "ok",
+      "httpCode": 302,
+      "error": null,
+      "context": "L1364"
+    },
+    {
+      "url": "https://www.colfondos.com.co/",
+      "status": "broken",
+      "httpCode": 403,
+      "error": null,
+      "context": "L1368"
+    },
+    {
+      "url": "https://www.caterpillar.com/",
+      "status": "broken",
+      "httpCode": 403,
+      "error": null,
+      "context": "L1405"
+    },
+    {
+      "url": "https://www.leonardo.com/en",
+      "status": "ok",
+      "httpCode": 301,
+      "error": null,
+      "context": "L1408"
+    },
+    {
+      "url": "https://www.leonardo.com/en",
+      "status": "ok",
+      "httpCode": 301,
+      "error": null,
+      "context": "L1423"
+    },
+    {
+      "url": "https://www.nato.int/",
+      "status": "ok",
+      "httpCode": 301,
+      "error": null,
+      "context": "L1423"
+    },
+    {
+      "url": "https://www.ohchr.org/en/special-procedures/sr-palestine",
+      "status": "broken",
+      "httpCode": 403,
+      "error": null,
+      "context": "L1436"
+    },
+    {
+      "url": "https://www.leonardo.com/en",
+      "status": "ok",
+      "httpCode": 301,
+      "error": null,
+      "context": "L1445"
+    },
+    {
+      "url": "https://www.consejodeestado.gov.co/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1495"
+    },
+    {
+      "url": "https://factual.afp.com/sites/default/files/2026-05/fallo-consejo-de-estado-colombia-sobre-software.pdf",
+      "status": "broken",
+      "httpCode": 403,
+      "error": null,
+      "context": "L1500"
+    },
+    {
+      "url": "https://vlex.com.co/vid/704507997",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1500"
+    },
+    {
+      "url": "https://www.consejodeestado.gov.co/documentos/boletines/PDF/11001-03-28-000-2014-00117-00%20(1).pdf",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1500"
+    },
+    {
+      "url": "https://cuestionpublica.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1504"
+    },
+    {
+      "url": "https://cuestionpublica.com/felicidades-tus-ahorros-siguen-creciendo-con-el-bombardeo-de-ninos-en-gaza/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1509"
+    },
+    {
+      "url": "https://www.regjeringen.no/en/topics/the-economy/the-government-pension-fund/",
+      "status": "broken",
+      "httpCode": 403,
+      "error": null,
+      "context": "L1513"
+    },
+    {
+      "url": "https://www.caterpillar.com/",
+      "status": "broken",
+      "httpCode": 403,
+      "error": null,
+      "context": "L1514"
+    },
+    {
+      "url": "https://www.regjeringen.no/en/documents/annual-report-2025/id3152102/?ch=5",
+      "status": "broken",
+      "httpCode": 403,
+      "error": null,
+      "context": "L1518"
+    },
+    {
+      "url": "https://www.ohchr.org/en/special-procedures/sr-palestine",
+      "status": "broken",
+      "httpCode": 403,
+      "error": null,
+      "context": "L1522"
+    },
+    {
+      "url": "https://www.ned.org/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1523"
+    },
+    {
+      "url": "https://www.ohchr.org/en/special-procedures/sr-palestine",
+      "status": "broken",
+      "httpCode": 403,
+      "error": null,
+      "context": "L1523"
+    },
+    {
+      "url": "https://www.un.org/unispal/document/special-rapporteur-report-gaza-genocide-a-collective-crime-20oct25/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1527"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Fernando_Cerimedo",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1531"
+    },
+    {
+      "url": "https://www.fiscalia.gov.co/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1532"
+    },
+    {
+      "url": "https://www.infobae.com/america/america-latina/2026/08/29/fernando-cerimedo-declaro-ante-la-justicia-de-bolivia-y-dijo-que-gana-cerca-de-un-millon-de-dolares-por-mes/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1536"
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/Gustavo_Petro",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1540"
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/Gustavo_Petro",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1541"
+    },
+    {
+      "url": "https://www.semana.com/economia/articulo/iniciativa-polemica-el-gobierno-busca-repatriar-los-recursos-que-tienen-los-fondos-de-pensiones-en-el-exterior-y-la-rentabilidad/202555/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1545"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Jens_Stoltenberg",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1549"
+    },
+    {
+      "url": "https://www.regjeringen.no/en/topics/the-economy/the-government-pension-fund/",
+      "status": "broken",
+      "httpCode": 403,
+      "error": null,
+      "context": "L1549"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Jens_Stoltenberg",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1550"
+    },
+    {
+      "url": "https://www.regjeringen.no/",
+      "status": "broken",
+      "httpCode": 403,
+      "error": null,
+      "context": "L1550"
+    },
+    {
+      "url": "https://www.nato.int/",
+      "status": "ok",
+      "httpCode": 301,
+      "error": null,
+      "context": "L1550"
+    },
+    {
+      "url": "https://www.jns.org/israel-news/amid-us-pressure-norway-halts-sovereign-wealth-funds-boycott-of-israel",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1554"
+    },
+    {
+      "url": "https://forbes.es/economia/823981/noruega-suspende-las-desinversiones-eticas-de-su-fondo-soberano/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1554"
+    },
+    {
+      "url": "https://www.cnbc.com/2025/09/04/white-house-hits-out-at-norway-wealth-fund-over-caterpillar-exit.html",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1554"
+    },
+    {
+      "url": "https://www.consejodeestado.gov.co/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1559"
+    },
+    {
+      "url": "https://vlex.com.co/vid/auto-n-11001-03-852673468",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1564"
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/Gustavo_Petro",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1568"
+    },
+    {
+      "url": "https://about.meta.com/",
+      "status": "ok",
+      "httpCode": 301,
+      "error": null,
+      "context": "L1573"
+    },
+    {
+      "url": "https://www.infobae.com/colombia/2026/01/21/gobierno-petro-defendio-nueva-regla-sobre-pensiones-y-dejo-claro-que-ahora-los-inversores-tienen-dos-alternativas-con-la-plata/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1574"
+    },
+    {
+      "url": "https://www.elespectador.com/economia/gobierno-avanza-en-plan-para-traer-ahorro-pensional-al-pais-esto-dice-borrador-de-decreto/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1574"
+    },
+    {
+      "url": "https://razonpublica.com/mas-inversion-local-implica-mejores-pensiones-analisis-del-proyecto-limita-la-inversion-externa-los-fondos-pensiones/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1574"
+    },
+    {
+      "url": "https://www.cne.gov.co/",
+      "status": "error",
+      "httpCode": null,
+      "error": "unable to verify the first certificate",
+      "context": "L1578"
+    },
+    {
+      "url": "https://www.cne.gov.co/",
+      "status": "error",
+      "httpCode": null,
+      "error": "unable to verify the first certificate",
+      "context": "L1579"
+    },
+    {
+      "url": "https://vlex.com.co/vid/704507997",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1584"
+    },
+    {
+      "url": "https://razonpublica.com/la-registraduria-nacional-una-mina-de-oro/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1584"
+    },
+    {
+      "url": "https://vlex.com.co/vid/704507997",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1594"
+    },
+    {
+      "url": "https://www.leonardo.com/en",
+      "status": "ok",
+      "httpCode": 301,
+      "error": null,
+      "context": "L1599"
+    },
+    {
+      "url": "https://elbitsystems.com/",
+      "status": "ok",
+      "httpCode": 301,
+      "error": null,
+      "context": "L1603"
+    },
+    {
+      "url": "https://www.icc-cpi.int/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1603"
+    },
+    {
+      "url": "https://infodifesa.it/leonardo-e-lombra-di-gaza-cingolani-contrattaca-tra-accuse-onu-e-realpolitik-della-difesa/",
+      "status": "broken",
+      "httpCode": 404,
+      "error": null,
+      "context": "L1604"
+    },
+    {
+      "url": "https://www.lindipendente.online/2025/10/20/un-rapporto-fa-luce-sui-legami-tra-leonardo-spa-e-il-genocidio-israeliano-a-gaza/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1604"
+    },
+    {
+      "url": "https://www.ilfattoquotidiano.it/2026/05/06/armi-italia-israele-spedizioni-militari-notizie/8376959/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1604"
+    },
+    {
+      "url": "https://www.consejodeestado.gov.co/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1613"
+    },
+    {
+      "url": "https://vlex.com.co/vid/704507997",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1614"
+    },
+    {
+      "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=41249",
+      "status": "error",
+      "httpCode": null,
+      "error": "unable to verify the first certificate",
+      "context": "L1614"
+    },
+    {
+      "url": "https://www.ciperchile.cl/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1618"
+    },
+    {
+      "url": "https://www.ohchr.org/en/special-procedures/sr-palestine",
+      "status": "broken",
+      "httpCode": 403,
+      "error": null,
+      "context": "L1619"
+    },
+    {
+      "url": "https://elbitsystems.com/",
+      "status": "ok",
+      "httpCode": 301,
+      "error": null,
+      "context": "L1623"
+    },
+    {
+      "url": "https://www.lockheedmartin.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1623"
+    },
+    {
+      "url": "https://www.leonardo.com/en",
+      "status": "ok",
+      "httpCode": 301,
+      "error": null,
+      "context": "L1623"
+    },
+    {
+      "url": "https://www.palantir.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1623"
+    },
+    {
+      "url": "https://cuestionpublica.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1623"
+    },
+    {
+      "url": "https://www.ciperchile.cl/2025/10/13/al-menos-us-34-millones-administrados-por-las-afp-terminaron-en-companias-acusadas-de-beneficiarse-con-la-tragedia-en-gaza/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1624"
+    },
+    {
+      "url": "https://razonpublica.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1628"
+    },
+    {
+      "url": "https://www.thomasgreg.com/",
+      "status": "error",
+      "httpCode": null,
+      "error": "certificate has expired",
+      "context": "L1628"
+    },
+    {
+      "url": "https://www.registraduria.gov.co/",
+      "status": "broken",
+      "httpCode": 403,
+      "error": null,
+      "context": "L1629"
+    },
+    {
+      "url": "https://www.rtvcnoticias.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1629"
+    },
+    {
+      "url": "https://www.eltiempo.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1633"
+    },
+    {
+      "url": "https://www.consejodeestado.gov.co/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1633"
+    },
+    {
+      "url": "https://www.fiscalia.gov.co/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1633"
+    },
+    {
+      "url": "https://razonpublica.com/la-registraduria-nacional-una-mina-de-oro/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1634"
+    },
+    {
+      "url": "https://www.rtvcnoticias.com/politica/thomas-greg-sons-vuelve-encargarse-de-las-elecciones",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1634"
+    },
+    {
+      "url": "https://vlex.com.co/vid/704507997",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1634"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Fernando_Cerimedo",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1640"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Fernando_Cerimedo",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1642"
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/Rodrigo_Paz_Pereira",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1643"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Fernando_Cerimedo",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1646"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Fernando_Cerimedo",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1653"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Brad_Parscale",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1658"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Fernando_Cerimedo",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1663"
+    },
+    {
+      "url": "https://www.fiscalia.gov.co/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1663"
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/Rodrigo_Paz_Pereira",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1666"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Fernando_Cerimedo",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1679"
+    },
+    {
+      "url": "https://www.ned.org/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1681"
+    },
+    {
+      "url": "https://www.lasillavacia.com/silla-nacional/la-conexion-de-abelardo-con-exsocio-de-cerimedo-y-la-nueva-derecha-internacional/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1681"
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/Gustavo_Petro",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1681"
+    },
+    {
+      "url": "https://www.bbc.com/mundo/articles/clyx45xkzzyo",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1687"
+    },
+    {
+      "url": "https://www.infobae.com/america/america-latina/2026/08/29/fernando-cerimedo-declaro-ante-la-justicia-de-bolivia-y-dijo-que-gana-cerca-de-un-millon-de-dolares-por-mes/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1688"
+    },
+    {
+      "url": "https://www.infobae.com/",
+      "status": "ok",
+      "httpCode": 301,
+      "error": null,
+      "context": "L1688"
+    },
+    {
+      "url": "https://tn.com.ar/politica/2026/08/28/cerimedo-declaro-ante-la-fiscalia-de-bolivia-admitio-que-asesoro-a-rodrigo-paz-y-evito-responder-sobre-su-rol-en-el-gobierno/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1689"
+    },
+    {
+      "url": "https://www.wsws.org/en/articles/2026/08/26/iljj-a26.html",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1690"
+    },
+    {
+      "url": "https://www.lanacion.com.ar/politica/quien-es-fernando-cerimedo-el-exasesor-de-javier-milei-detenido-en-bolivia-nid18082026/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1691"
+    },
+    {
+      "url": "https://www.telesurenglish.net/petro-calls-for-un-complaint-over-far-right-driven-election-fraud-in-latam/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1692"
+    },
+    {
+      "url": "https://www.lasillavacia.com/silla-nacional/la-conexion-de-abelardo-con-exsocio-de-cerimedo-y-la-nueva-derecha-internacional/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1699"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Fernando_Cerimedo",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1700"
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/Abelardo_de_la_Espriella",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1700"
+    },
+    {
+      "url": "https://www.lasillavacia.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1700"
+    },
+    {
+      "url": "https://www.lasillavacia.com/silla-nacional/la-conexion-de-abelardo-con-exsocio-de-cerimedo-y-la-nueva-derecha-internacional/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1705"
+    },
+    {
+      "url": "https://colombiacheck.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1715"
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/Abelardo_de_la_Espriella",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1740"
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/Abelardo_de_la_Espriella",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1756"
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/Abelardo_de_la_Espriella",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1756"
+    },
+    {
+      "url": "https://www.lasillavacia.com/silla-nacional/la-conexion-de-abelardo-con-exsocio-de-cerimedo-y-la-nueva-derecha-internacional/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1756"
+    },
+    {
+      "url": "https://www.lasillavacia.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1759"
+    },
+    {
+      "url": "https://www.lasillavacia.com/silla-nacional/la-conexion-de-abelardo-con-exsocio-de-cerimedo-y-la-nueva-derecha-internacional/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1759"
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/Abelardo_de_la_Espriella",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1759"
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/Gustavo_Petro",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1759"
+    },
+    {
+      "url": "https://www.lasillavacia.com/silla-nacional/la-conexion-de-abelardo-con-exsocio-de-cerimedo-y-la-nueva-derecha-internacional/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1764"
+    },
+    {
+      "url": "https://confidencialnoticias.com/opinion/de-la-espriella-un-presidente-fabricado-por-la-ultraderecha-internacional-alejandro-toro/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1765"
+    },
+    {
+      "url": "https://www.diario-red.com/articulo/medios/derecha-diario-desembarco-javier-negre-america-latina-mano-milei/20260819180814074756.html",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1766"
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/La_Derecha_Diario",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1767"
+    },
+    {
+      "url": "https://es.wikipedia.org/",
+      "status": "ok",
+      "httpCode": 301,
+      "error": null,
+      "context": "L1767"
+    },
+    {
+      "url": "https://www.thomasgreg.com/",
+      "status": "error",
+      "httpCode": null,
+      "error": "certificate has expired",
+      "context": "L1772"
+    },
+    {
+      "url": "https://www.thomasgreg.com/",
+      "status": "error",
+      "httpCode": null,
+      "error": "certificate has expired",
+      "context": "L1774"
+    },
+    {
+      "url": "https://www.thomasgreg.com/",
+      "status": "error",
+      "httpCode": null,
+      "error": "certificate has expired",
+      "context": "L1774"
+    },
+    {
+      "url": "https://www.consejodeestado.gov.co/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1775"
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/Abelardo_de_la_Espriella",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1775"
+    },
+    {
+      "url": "https://razonpublica.com/la-registraduria-nacional-una-mina-de-oro/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1778"
+    },
+    {
+      "url": "https://razonpublica.com/la-registraduria-nacional-una-mina-de-oro/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1782"
+    },
+    {
+      "url": "https://www.rtvcnoticias.com/politica/thomas-greg-sons-vuelve-encargarse-de-las-elecciones",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1786"
+    },
+    {
+      "url": "https://www.eltiempo.com/justicia/cortes/consejo-de-estado-anulo-3-curules-del-senado-y-declaro-a-mira-como-ganador-182635",
+      "status": "broken",
+      "httpCode": 404,
+      "error": null,
+      "context": "L1794"
+    },
+    {
+      "url": "https://vlex.com.co/vid/704507997",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1798"
+    },
+    {
+      "url": "https://www.thomasgreg.com/",
+      "status": "error",
+      "httpCode": null,
+      "error": "certificate has expired",
+      "context": "L1804"
+    },
+    {
+      "url": "https://www.thomasgreg.com/",
+      "status": "error",
+      "httpCode": null,
+      "error": "certificate has expired",
+      "context": "L1806"
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/Gustavo_Petro",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1810"
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/Abelardo_de_la_Espriella",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1810"
+    },
+    {
+      "url": "https://www.consejodeestado.gov.co/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1812"
+    },
+    {
+      "url": "https://razonpublica.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1814"
+    },
+    {
+      "url": "https://www.eltiempo.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1814"
+    },
+    {
+      "url": "https://www.fiscalia.gov.co/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1821"
+    },
+    {
+      "url": "https://factual.afp.com/sites/default/files/2026-05/fallo-consejo-de-estado-colombia-sobre-software.pdf",
+      "status": "broken",
+      "httpCode": 403,
+      "error": null,
+      "context": "L1827"
+    },
+    {
+      "url": "https://vlex.com.co/vid/704507997",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1827"
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/Gustavo_Petro",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1835"
+    },
+    {
+      "url": "https://www.rtvcnoticias.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1835"
+    },
+    {
+      "url": "https://www.eltiempo.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1835"
+    },
+    {
+      "url": "https://razonpublica.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1835"
+    },
+    {
+      "url": "https://www.elespectador.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1835"
+    },
+    {
+      "url": "https://www.thomasgreg.com/",
+      "status": "error",
+      "httpCode": null,
+      "error": "certificate has expired",
+      "context": "L1836"
+    },
+    {
+      "url": "https://www.fiscalia.gov.co/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1836"
+    },
+    {
+      "url": "https://www.registraduria.gov.co/",
+      "status": "broken",
+      "httpCode": 403,
+      "error": null,
+      "context": "L1842"
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/Gustavo_Petro",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1845"
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/Abelardo_de_la_Espriella",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1845"
+    },
+    {
+      "url": "https://www.thomasgreg.com/",
+      "status": "error",
+      "httpCode": null,
+      "error": "certificate has expired",
+      "context": "L1845"
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/Abelardo_de_la_Espriella",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1847"
+    },
+    {
+      "url": "https://www.thomasgreg.com/",
+      "status": "error",
+      "httpCode": null,
+      "error": "certificate has expired",
+      "context": "L1847"
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/Gustavo_Petro",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1848"
+    },
+    {
+      "url": "https://www.registraduria.gov.co/",
+      "status": "broken",
+      "httpCode": 403,
+      "error": null,
+      "context": "L1856"
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/Gustavo_Petro",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1857"
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/Gustavo_Petro",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1862"
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/Gustavo_Petro",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1866"
+    },
+    {
+      "url": "https://www.rtvcnoticias.com/politica/thomas-greg-sons-vuelve-encargarse-de-las-elecciones",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1872"
+    },
+    {
+      "url": "https://www.rtvcnoticias.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1872"
+    },
+    {
+      "url": "https://www.consejodeestado.gov.co/documentos/boletines/PDF/11001-03-28-000-2014-00117-00%20(1).pdf",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1873"
+    },
+    {
+      "url": "https://www.lasillavacia.com/detector-de-mentiras/detector-petro-insiste-en-narrativa-de-fraude-electoral-sin-sustento/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1874"
+    },
+    {
+      "url": "https://www.elespectador.com/judicial/el-fallo-que-el-presidente-petro-busca-usar-para-sustentar-denuncias-sobre-fraude-electoral/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1875"
+    },
+    {
+      "url": "https://www.contexto.info/fact-checking-al-hilo-de-gustavo-petro-sobre-el-supuesto-fraude-electoral-en-colombia/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1876"
+    },
+    {
+      "url": "https://www.elcolombiano.com/colombia/factcheck-las-afirmaciones-falsas-e-imprecisas-de-petro-sobre-el-software-electoral-DL33837646",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1877"
+    },
+    {
+      "url": "https://corrupcionaldia.com/los-exconvictos-que-controlan-los-pasaportes-y-las-elecciones/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1878"
+    },
+    {
+      "url": "https://www.telesurtv.net/petro-israel-software-electoral-colombia/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1879"
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/Abelardo_de_la_Espriella",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1895"
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/Abelardo_de_la_Espriella",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1896"
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/Gustavo_Petro",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1904"
+    },
+    {
+      "url": "https://www.cne.gov.co/",
+      "status": "error",
+      "httpCode": null,
+      "error": "unable to verify the first certificate",
+      "context": "L1906"
+    },
+    {
+      "url": "https://www.cne.gov.co/",
+      "status": "error",
+      "httpCode": null,
+      "error": "unable to verify the first certificate",
+      "context": "L1906"
+    },
+    {
+      "url": "https://www.registraduria.gov.co/",
+      "status": "broken",
+      "httpCode": 403,
+      "error": null,
+      "context": "L1906"
+    },
+    {
+      "url": "https://colombiacheck.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1906"
+    },
+    {
+      "url": "https://www.elespectador.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1909"
+    },
+    {
+      "url": "https://www.youtube.com/@LaPulla",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1910"
+    },
+    {
+      "url": "https://www.eluniversal.com.co/politica/2026/08/07/el-mapa-de-la-victoria-de-abelardo-de-la-espriella/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1915"
+    },
+    {
+      "url": "https://www.infobae.com/colombia/2026/08/07/abelardo-de-la-espriella-asume-oficialmente-como-nuevo-presidente-de-colombia-esta-es-su-historia/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1916"
+    },
+    {
+      "url": "https://www.infobae.com/",
+      "status": "ok",
+      "httpCode": 301,
+      "error": null,
+      "context": "L1916"
+    },
+    {
+      "url": "https://www.pulzo.com/amp/nacion/abelardo-de-la-espriella-asume-la-presidencia-de-colombia-2026-2030-resultados-y-retos-PP5268703A",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1917"
+    },
+    {
+      "url": "https://www.cronista.com/colombia/actualidad-co/petro-volvio-a-denunciar-fraude-electoral-y-dijo-que-el-escrutinio-que-dio-ganador-a-de-la-espriella-estuvo-marcado-por-la-oscuridad-en-colombia/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1918"
+    },
+    {
+      "url": "https://colombiacheck.com/chequeos/es-falso-que-abelardo-de-la-espriella-no-pueda-posesionarse-el-7-de-agosto",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1919"
+    },
+    {
+      "url": "https://colombiacheck.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1919"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=BFhzXRvB3F4",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1920"
+    },
+    {
+      "url": "https://www.lasillavacia.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1930"
+    },
+    {
+      "url": "https://www.usaid.gov/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1934"
+    },
+    {
+      "url": "https://about.meta.com/",
+      "status": "ok",
+      "httpCode": 301,
+      "error": null,
+      "context": "L1935"
+    },
+    {
+      "url": "https://www.opensocietyfoundations.org/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1939"
+    },
+    {
+      "url": "https://www.segurossura.com.co/",
+      "status": "ok",
+      "httpCode": 302,
+      "error": null,
+      "context": "L1939"
+    },
+    {
+      "url": "https://colombiacheck.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1942"
+    },
+    {
+      "url": "https://about.meta.com/",
+      "status": "ok",
+      "httpCode": 301,
+      "error": null,
+      "context": "L1945"
+    },
+    {
+      "url": "https://www.ned.org/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1949"
+    },
+    {
+      "url": "https://www.youtube.com/@LaPulla",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1955"
+    },
+    {
+      "url": "https://www.elespectador.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1955"
+    },
+    {
+      "url": "https://www.usaid.gov/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1957"
+    },
+    {
+      "url": "https://www.opensocietyfoundations.org/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1958"
+    },
+    {
+      "url": "https://www.valorem.com.co/",
+      "status": "ok",
+      "httpCode": 301,
+      "error": null,
+      "context": "L1959"
+    },
+    {
+      "url": "https://cuestionpublica.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1962"
+    },
+    {
+      "url": "https://www.usaid.gov/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1969"
+    },
+    {
+      "url": "https://www.ned.org/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1969"
+    },
+    {
+      "url": "https://www.opensocietyfoundations.org/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1969"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Fernando_Cerimedo",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1970"
+    },
+    {
+      "url": "https://www.lasillavacia.com/silla-nacional/la-conexion-de-abelardo-con-exsocio-de-cerimedo-y-la-nueva-derecha-internacional/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1970"
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/Abelardo_de_la_Espriella",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1970"
+    },
+    {
+      "url": "https://www.thomasgreg.com/",
+      "status": "error",
+      "httpCode": null,
+      "error": "certificate has expired",
+      "context": "L1970"
+    },
+    {
+      "url": "https://www.blackrock.com/co",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1971"
+    },
+    {
+      "url": "https://investor.vanguard.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1971"
+    },
+    {
+      "url": "https://revistaraya.com/embajadas-influencers-y-propaganda-la-ofensiva-informativa-de-washington-en-america-latina.html",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1979"
+    },
+    {
+      "url": "https://revistaraya.com/",
+      "status": "broken",
+      "httpCode": 429,
+      "error": null,
+      "context": "L1979"
+    },
+    {
+      "url": "https://www.semana.com/confidenciales/articulo/juanita-leon-reconoce-que-la-silla-vacia-perdio-el-40-por-ciento-de-sus-ingresos/202526/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1980"
+    },
+    {
+      "url": "https://www.semana.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1980"
+    },
+    {
+      "url": "https://www.lasillavacia.com/opinion/solicitud-publica-de-rectificacion-a-la-campana-de-la-espriella/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1981"
+    },
+    {
+      "url": "https://mediabiasfactcheck.com/colombiacheck-bias-and-credibility/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1982"
+    },
+    {
+      "url": "https://ecuadorchequea.com/ifcn-otorga-750000-a-25-verificadores-de-datos-para-construir-sostenibilidad-financiera/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1983"
+    },
+    {
+      "url": "https://www.lasillavacia.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1997"
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/Abelardo_de_la_Espriella",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L1997"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Fernando_Cerimedo",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L2004"
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/Gustavo_Petro",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L2004"
+    },
+    {
+      "url": "https://www.thomasgreg.com/",
+      "status": "error",
+      "httpCode": null,
+      "error": "certificate has expired",
+      "context": "L2004"
+    },
+    {
+      "url": "https://www.cne.gov.co/",
+      "status": "error",
+      "httpCode": null,
+      "error": "unable to verify the first certificate",
+      "context": "L2006"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Fernando_Cerimedo",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L2014"
+    },
+    {
+      "url": "https://www.infobae.com/",
+      "status": "ok",
+      "httpCode": 301,
+      "error": null,
+      "context": "L2014"
+    },
+    {
+      "url": "https://cuestionpublica.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L2015"
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/Gustavo_Petro",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L2015"
+    },
+    {
+      "url": "https://www.ohchr.org/en/special-procedures/sr-palestine",
+      "status": "broken",
+      "httpCode": 403,
+      "error": null,
+      "context": "L2016"
+    },
+    {
+      "url": "https://www.lasillavacia.com/silla-nacional/la-conexion-de-abelardo-con-exsocio-de-cerimedo-y-la-nueva-derecha-internacional/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L2017"
+    },
+    {
+      "url": "https://www.lasillavacia.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L2017"
+    },
+    {
+      "url": "https://www.registraduria.gov.co/",
+      "status": "broken",
+      "httpCode": 403,
+      "error": null,
+      "context": "L2018"
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/Gustavo_Petro",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L2024"
+    },
+    {
+      "url": "https://about.meta.com/",
+      "status": "ok",
+      "httpCode": 301,
+      "error": null,
+      "context": "L2028"
+    },
+    {
+      "url": "https://cuestionpublica.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L2038"
+    },
+    {
+      "url": "https://www.lasillavacia.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L2038"
+    },
+    {
+      "url": "https://colombiacheck.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L2038"
+    },
+    {
+      "url": "https://www.infobae.com/",
+      "status": "ok",
+      "httpCode": 301,
+      "error": null,
+      "context": "L2038"
+    },
+    {
+      "url": "https://www.elespectador.com/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L2038"
+    },
+    {
+      "url": "https://www.ciperchile.cl/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L2038"
+    },
+    {
+      "url": "https://es.wikipedia.org/",
+      "status": "ok",
+      "httpCode": 301,
+      "error": null,
+      "context": "L2038"
+    },
+    {
+      "url": "https://www.un.org/",
+      "status": "ok",
+      "httpCode": 200,
+      "error": null,
+      "context": "L2038"
+    },
+    {
+      "url": "evidencia/prueba-01-sentencia-consejo-estado-1412-mesas.html",
+      "status": "ok",
+      "httpCode": null,
+      "error": null
+    }
+  ]
+}
