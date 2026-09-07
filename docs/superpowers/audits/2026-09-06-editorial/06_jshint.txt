@@ -1,0 +1,34 @@
+﻿================================================================================
+jshint output — tools/_temp_script.js
+================================================================================
+Comando: npx --yes jshint --config tools/_temp_jshintrc.json tools/_temp_script.js
+Config:  { "esversion": 6, "browser": true, "node": false }
+Fecha:   2026-09-06
+
+--------------------------------------------------------------------------------
+RESULTADO: 0 issues (0 errors, 0 warnings)
+--------------------------------------------------------------------------------
+
+Notas:
+- jshint por defecto asume ES5; sin 'esversion: 6' emite 10 warnings por uso de
+  'const' y arrow functions (que son ES6, soportados en todos los browsers
+  modernos). Con la config 'esversion: 6' esos warnings desaparecen.
+- jshint raw stdout/stderr (sin las notificaciones de npx) está vacío, lo que
+  confirma 0 issues reales.
+
+================================================================================
+Referencia: corrida SIN esversion:6 (output crudo, solo para contexto)
+================================================================================
+tools/_temp_script.js: line 3, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+tools/_temp_script.js: line 4, col 41, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+tools/_temp_script.js: line 5, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+tools/_temp_script.js: line 7, col 70, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+tools/_temp_script.js: line 13, col 58, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+tools/_temp_script.js: line 14, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+tools/_temp_script.js: line 15, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+tools/_temp_script.js: line 21, col 68, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+tools/_temp_script.js: line 22, col 38, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+tools/_temp_script.js: line 24, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
+Conclusión: las 10 advertencias son consecuencia del default ES5 de jshint, NO
+son issues reales del código. Con config ES6 el código pasa limpio.
