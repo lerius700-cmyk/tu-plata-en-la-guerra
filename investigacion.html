@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Investigación completa — Tu plata en la guerra, tu opinión en venta</title>
-<meta name="description" content="Investigación periodística completa: 14 secciones, 50+ fuentes citadas, 15 pruebas documentales. Cada afirmación es clickeable y muestra la cita textual de la fuente original.">
+<meta name="description" content="Investigación periodística completa: 12 secciones, 50+ fuentes citadas, 15 pruebas documentales. Cada afirmación es clickeable y muestra la cita textual de la fuente original.">
 <meta name="keywords" content="Colombia, pensiones, AFP, Gaza, Valorem, Santo Domingo, La Pulla, Thomas Greg, Cerimedo, USAID, periodismo de investigación">
 <meta name="author" content="Lerius">
 <meta name="robots" content="index, follow">
@@ -13,7 +13,7 @@
 <!-- Open Graph -->
 <meta property="og:type" content="article">
 <meta property="og:title" content="Investigación completa — Tu plata en la guerra, tu opinión en venta">
-<meta property="og:description" content="14 secciones, 50+ fuentes citadas, 15 pruebas documentales. Cada afirmación con su fuente y cita textual.">
+<meta property="og:description" content="12 secciones, 50+ fuentes citadas, 15 pruebas documentales. Cada afirmación con su fuente y cita textual.">
 <meta property="og:url" content="./investigacion.html">
 <meta property="og:site_name" content="Tu plata en la guerra">
 <meta property="og:locale" content="es_CO">
@@ -22,7 +22,7 @@
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Investigación completa — Tu plata en la guerra, tu opinión en venta">
-<meta name="twitter:description" content="14 secciones, 50+ fuentes citadas, cada afirmación con su fuente y cita textual.">
+<meta name="twitter:description" content="12 secciones, 50+ fuentes citadas, cada afirmación con su fuente y cita textual.">
 <meta name="twitter:image" content="evidencia/prueba-01-sentencia-consejo-estado-1412-mesas.jpg">
 
 <style>
@@ -430,7 +430,7 @@
   <p class="hero-eyebrow">
     <span>Investigación interactiva</span>
     <span class="sep">·</span>
-    <span>11 secciones</span>
+    <span>12 secciones</span>
     <span class="sep">·</span>
     <span>50+ fuentes citadas</span>
     <span class="sep">·</span>
@@ -1755,10 +1755,87 @@
 </section>
 
 <!-- ============================================================ -->
-<!-- SECCIÓN 11 — METODOLOGÍA                                     -->
+<!-- SECCIÓN 11 — BIBLIOGRAFÍA MAESTRA                            -->
+<!-- ============================================================ -->
+<section id="bibliografia" class="bloque section-anchor">
+  <p class="section-num">11</p>
+  <h2>Bibliografía maestra</h2>
+  <p class="lede">
+    Esta es la auditoría completa de la investigación: <strong>todas</strong> las fuentes citadas, con link al artículo original, fechas en que se citaron, y número de veces que aparece cada una. La tabla se genera automáticamente desde los <code>&lt;citation&gt;</code> del DOM, así que siempre está sincronizada con el contenido.
+  </p>
+
+  <div class="stat-grid" style="margin-bottom: 32px;">
+    <div class="stat">
+      <span class="num" id="bibTotalCount">0</span>
+      <span class="lbl">citas totales en la investigación</span>
+    </div>
+    <div class="stat">
+      <span class="num" id="bibUniqueCount">0</span>
+      <span class="lbl">fuentes únicas citadas</span>
+    </div>
+    <div class="stat">
+      <span class="num" id="bibMostCited">—</span>
+      <span class="lbl">fuente más citada</span>
+    </div>
+  </div>
+
+  <div style="display: flex; gap: 12px; margin-bottom: 18px; flex-wrap: wrap; align-items: center;">
+    <input
+      type="text"
+      id="bibSearch"
+      placeholder="Filtrar por fuente (ej: Cuestión Pública, La Silla Vacía, Infobae...)"
+      style="flex: 1; min-width: 260px; padding: 10px 14px; background: var(--bg-elev); border: 1px solid var(--border); color: var(--text); border-radius: 4px; font-family: var(--sans); font-size: 0.9rem;"
+      aria-label="Filtrar bibliografía por nombre de fuente"
+    >
+    <select
+      id="bibSort"
+      style="padding: 10px 14px; background: var(--bg-elev); border: 1px solid var(--border); color: var(--text); border-radius: 4px; font-family: var(--sans); font-size: 0.9rem;"
+      aria-label="Ordenar bibliografía"
+    >
+      <option value="alpha">Ordenar alfabéticamente (A-Z)</option>
+      <option value="count">Ordenar por veces citada (desc)</option>
+    </select>
+  </div>
+
+  <div style="overflow-x: auto;">
+    <table id="bibTable" style="font-size: 0.88rem;">
+      <thead>
+        <tr>
+          <th style="width: 50%;">Fuente</th>
+          <th>Fechas citadas</th>
+          <th style="width: 80px; text-align: center;">N° citas</th>
+        </tr>
+      </thead>
+      <tbody id="bibTbody">
+        <tr><td colspan="3" style="text-align: center; color: var(--text-mute); padding: 32px;">Cargando bibliografía…</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout" style="margin-top: 24px;">
+    <strong>Cómo se construye esta tabla:</strong> al cargar la página, un script lee todos los <code>&lt;citation&gt;</code> del documento, agrupa por <code>data-source</code>, cuenta las veces que aparece cada fuente, y lista las fechas únicas. El filtro busca en tiempo real; el selector ordena por nombre o por frecuencia.
+  </div>
+
+  <div class="sources" style="margin-top: 24px;">
+    <h4 style="color: var(--text-mute); font-family: var(--mono); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em;">Para auditores y verificadores</h4>
+    <p style="color: var(--text-soft); font-size: 0.92rem; line-height: 1.6;">
+      Si querés auditar la metodología completa, consultá los reportes de auditoría en la raíz del proyecto:
+    </p>
+    <ol>
+      <li><a href="AUDIT_SUMMARY.md" target="_blank" rel="noopener">AUDIT_SUMMARY.md</a> — Resumen ejecutivo de la auditoría editorial</li>
+      <li><a href="link_audit_report.md" target="_blank" rel="noopener">link_audit_report.md</a> — Validación de 306 links</li>
+      <li><a href="grammar_audit_report.md" target="_blank" rel="noopener">grammar_audit_report.md</a> — Revisión con LanguageTool API (588 patrones)</li>
+      <li><a href="semantic_audit_report.md" target="_blank" rel="noopener">semantic_audit_report.md</a> — Revisión semántica con subagentes (88 hallazgos)</li>
+      <li><a href="fixes_applied.md" target="_blank" rel="noopener">fixes_applied.md</a> — Log de correcciones aplicadas</li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- SECCIÓN 12 — METODOLOGÍA                                     -->
 <!-- ============================================================ -->
 <section id="metodologia" class="bloque section-anchor">
-  <p class="section-num">11</p>
+  <p class="section-num">12</p>
   <h2>Metodología y auditoría</h2>
   <p class="lede">
     Esta investigación se construyó con un estándar explícito de trazabilidad. Cada cifra tiene fuente verificable; cada cita textual fue extraída directamente del artículo original. Esta sección documenta cómo.
@@ -1808,7 +1885,7 @@
   <ul style="margin-left: 20px; line-height: 1.7;">
     <li><strong>Portada (index.html):</strong> 4 actos resumidos como gancho visual de 5-10 segundos.</li>
     <li>
-      <strong>Cuerpo (investigacion.html):</strong> las 11 secciones completas, cada una con sus fuentes citadas. El componente
+      <strong>Cuerpo (investigacion.html):</strong> las 12 secciones completas, cada una con sus fuentes citadas. El componente
       <citation data-source="Convención" data-date="2026" data-quote="El componente <citation> permite expandir cualquier cifra o afirmación para ver la cita textual y abrir el artículo original."><code>&lt;citation&gt;</code></citation>
       permite expandir cualquier cifra o afirmación para ver la cita textual y abrir el artículo original.
     </li>
@@ -2156,11 +2233,82 @@
     draw();
   }
 
-  // Inicializar citations cuando DOM esté listo
+  // ============= BIBLIOGRAFÍA MAESTRA =============
+  // Escanea todos los <citation> del DOM, agrupa por data-source,
+  // cuenta las veces citada, y lista fechas únicas.
+  function buildBibliography() {
+    const cites = document.querySelectorAll('citation');
+    const bySource = Object.create(null);
+
+    cites.forEach((c) => {
+      const source = (c.dataset.source || 'Fuente sin nombre').trim();
+      const url = (c.dataset.url || '#').trim();
+      const date = (c.dataset.date || '').trim();
+      if (!bySource[source]) {
+        bySource[source] = { url, dates: new Set(), count: 0 };
+      }
+      bySource[source].count++;
+      if (date) bySource[source].dates.add(date);
+    });
+
+    const totalEl = document.getElementById('bibTotalCount');
+    const uniqEl = document.getElementById('bibUniqueCount');
+    const mostEl = document.getElementById('bibMostCited');
+    const tbody = document.getElementById('bibTbody');
+    if (!tbody) return;
+
+    const entries = Object.entries(bySource);
+    if (totalEl) totalEl.textContent = String(cites.length);
+    if (uniqEl) uniqEl.textContent = String(entries.length);
+    if (mostEl) {
+      const top = entries.sort((a, b) => b[1].count - a[1].count)[0];
+      mostEl.textContent = top ? top[0] : '—';
+    }
+
+    let sortMode = 'alpha';
+    const sortSel = document.getElementById('bibSort');
+    if (sortSel) sortSel.addEventListener('change', (e) => {
+      sortMode = e.target.value;
+      render();
+    });
+
+    const searchEl = document.getElementById('bibSearch');
+    if (searchEl) searchEl.addEventListener('input', render);
+
+    function render() {
+      const q = (searchEl && searchEl.value || '').toLowerCase().trim();
+      const filtered = entries.filter(([name]) => name.toLowerCase().includes(q));
+      const sorted = filtered.slice().sort((a, b) => {
+        if (sortMode === 'count') return b[1].count - a[1].count;
+        return a[0].localeCompare(b[0]);
+      });
+      if (sorted.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="3" style="text-align: center; color: var(--text-mute); padding: 32px;">Sin resultados para el filtro actual.</td></tr>';
+        return;
+      }
+      tbody.innerHTML = sorted.map(([name, info]) => {
+        const dates = info.dates.size > 0
+          ? Array.from(info.dates).sort().join(', ')
+          : 's/f';
+        return `
+          <tr>
+            <td><a href="${escapeAttr(info.url)}" target="_blank" rel="noopener noreferrer" style="color: var(--accent-bright); text-decoration: none; border-bottom: 1px dotted var(--accent);">${escapeHtml(name)}</a></td>
+            <td style="color: var(--text-soft); font-family: var(--mono); font-size: 0.8rem;">${escapeHtml(dates)}</td>
+            <td style="text-align: center; color: var(--gold); font-weight: 600;">${info.count}</td>
+          </tr>
+        `;
+      }).join('');
+    }
+
+    render();
+  }
+
+  // Inicializar citations y bibliografía cuando DOM esté listo
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initCitations);
+    document.addEventListener('DOMContentLoaded', () => { initCitations(); buildBibliography(); });
   } else {
     initCitations();
+    buildBibliography();
   }
 
 })();
