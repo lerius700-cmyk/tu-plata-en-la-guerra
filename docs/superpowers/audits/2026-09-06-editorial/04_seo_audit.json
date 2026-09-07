@@ -1,0 +1,83 @@
+{
+  "target": "index.html",
+  "auditedAt": "2026-09-07T03:28:35.190Z",
+  "htmlSizeBytes": 172568,
+  "requiredTagsCount": 14,
+  "meta": {
+    "title": "Tu plata en la guerra, tu opinión en venta — Investigación independiente",
+    "viewport": "width=device-width, initial-scale=1.0",
+    "description": "Investigación periodística sobre la cadena de dinero colombiano que financia (presuntamente) la guerra en Gaza, la red de medios que la cubre, y el ecosistema digital que moldea la opinión pública."
+  },
+  "issuesCount": 13,
+  "issuesBySeverity": {
+    "error": 10,
+    "warning": 3
+  },
+  "issues": [
+    {
+      "tag": "description",
+      "severity": "warning",
+      "message": "description tiene 197 chars (máximo recomendado: 160)"
+    },
+    {
+      "tag": "og:title",
+      "severity": "error",
+      "message": "Tag og:title no encontrado"
+    },
+    {
+      "tag": "og:description",
+      "severity": "error",
+      "message": "Tag og:description no encontrado"
+    },
+    {
+      "tag": "og:image",
+      "severity": "error",
+      "message": "Tag og:image no encontrado"
+    },
+    {
+      "tag": "og:url",
+      "severity": "error",
+      "message": "Tag og:url no encontrado"
+    },
+    {
+      "tag": "og:type",
+      "severity": "error",
+      "message": "Tag og:type no encontrado"
+    },
+    {
+      "tag": "og:site_name",
+      "severity": "warning",
+      "message": "Tag og:site_name no encontrado"
+    },
+    {
+      "tag": "og:locale",
+      "severity": "warning",
+      "message": "Tag og:locale no encontrado"
+    },
+    {
+      "tag": "twitter:card",
+      "severity": "error",
+      "message": "Tag twitter:card no encontrado"
+    },
+    {
+      "tag": "twitter:title",
+      "severity": "error",
+      "message": "Tag twitter:title no encontrado"
+    },
+    {
+      "tag": "twitter:description",
+      "severity": "error",
+      "message": "Tag twitter:description no encontrado"
+    },
+    {
+      "tag": "twitter:image",
+      "severity": "error",
+      "message": "Tag twitter:image no encontrado"
+    },
+    {
+      "tag": "canonical",
+      "severity": "error",
+      "message": "Tag canonical no encontrado"
+    }
+  ]
+}
