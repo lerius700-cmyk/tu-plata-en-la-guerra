@@ -3527,5 +3527,63 @@
 })();
 </script>
 
+<style>
+  .back-to-top {
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+    width: 48px;
+    height: 48px;
+    background: var(--bg-elev-2, #1c1c1c);
+    border: 1px solid var(--border);
+    color: var(--accent, #ea580c);
+    border-radius: 50%;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 48px;
+    cursor: pointer;
+    z-index: 999;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s, transform 0.25s, background 0.2s;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  }
+  .back-to-top.visible {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .back-to-top:hover {
+    background: var(--bg-elev, #141414);
+    transform: translateY(-3px);
+  }
+</style>
+
+<button class="back-to-top" id="backToTop" aria-label="Volver al inicio de la investigación" title="Volver al inicio">↑</button>
+
+<script>
+  (function() {
+    const btn = document.getElementById('backToTop');
+    let ticking = false;
+    function update() {
+      if (window.scrollY > 600) {
+        btn.classList.add('visible');
+      } else {
+        btn.classList.remove('visible');
+      }
+      ticking = false;
+    }
+    window.addEventListener('scroll', () => {
+      if (!ticking) {
+        requestAnimationFrame(update);
+        ticking = true;
+      }
+    });
+    btn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  })();
+</script>
+
 </body>
 </html>
