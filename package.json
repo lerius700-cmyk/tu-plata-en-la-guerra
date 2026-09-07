@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "devDependencies": {
-    "@axe-core/cli": "^4.13.0"
+    "@axe-core/cli": "^4.13.0",
+    "jsdom": "^30.0.1"
   }
 }

@@ -1,54 +1,63 @@
 // tools/audit_accessibility.js
-// Auditor de accesibilidad WCAG 2.1 usando axe-core
+// Auditor de accesibilidad WCAG 2.1 usando axe-core + jsdom
+// (Migrado de CLI a librería para evitar dependencia de Chrome/Edge real)
 // Generado para auditoría 2026-09-06
-//
-// Uso:
-//   const { runAudit, parseResults } = require('./audit_accessibility.js');
-//   const results = runAudit('index.html');
 
-const { execSync } = require('child_process');
-const path = require('path');
+const axe = require('axe-core');
+const { JSDOM } = require('jsdom');
 const fs = require('fs');
+const path = require('path');
 
 /**
- * Ejecuta axe-core contra un archivo HTML y retorna resultados parseados.
+ * Ejecuta axe-core contra un archivo HTML usando jsdom y retorna resultados parseados.
  * @param {string} htmlPath - ruta al archivo HTML
- * @param {object} options - { format: 'json' | 'text', saveRaw: boolean }
- * @returns {object} resultados de axe-core parseados
+ * @param {object} options - { saveRaw: boolean, tags: array<string> }
+ * @returns {object} { critical, serious, moderate, minor, totalNodes, raw }
  */
-function runAudit(htmlPath, options = {}) {
-  const { format = 'json', saveRaw = false } = options;
+async function runAudit(htmlPath, options = {}) {
+  const { saveRaw = false, tags = ['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa'] } = options;
   const absPath = path.resolve(htmlPath);
 
   if (!fs.existsSync(absPath)) {
     throw new Error(`Archivo HTML no encontrado: ${absPath}`);
   }
 
-  const outputFile = path.join(__dirname, '..', 'docs', 'superpowers', 'audits', '2026-09-06-editorial', '03_axe_raw.json');
-  const outputDir = path.dirname(outputFile);
-  if (!fs.existsSync(outputDir)) {
-    fs.mkdirSync(outputDir, { recursive: true });
-  }
+  const html = fs.readFileSync(absPath, 'utf8');
 
-  try {
-    const cmd = `npx axe "${absPath}" --save "${outputFile}" --exit 2>&1`;
-    const stdout = execSync(cmd, { encoding: 'utf8', stdio: 'pipe' });
-    if (saveRaw) {
-      fs.writeFileSync(outputFile.replace('.json', '_stdout.txt'), stdout);
+  // Crear DOM con jsdom (sin scripts externos; el HTML es self-contained)
+  const dom = new JSDOM(html, {
+    url: 'http://localhost/',
+    runScripts: 'outside-only',
+    pretendToBeVisual: true
+  });
+  const { window } = dom;
+
+  // Inyectar axe-core en el contexto del window
+  window.eval(axe.source);
+
+  // Ejecutar axe.run() dentro del contexto del window
+  // (necesario porque axe usa globals del window)
+  const results = await window.eval(`
+    axe.run(document, {
+      runOnly: { type: 'tag', values: ${JSON.stringify(tags)} },
+      resultTypes: ['violations', 'incomplete', 'passes']
+    })
+  `);
+
+  // Guardar raw si se pide
+  if (saveRaw) {
+    const outputFile = path.join(__dirname, '..', 'docs', 'superpowers', 'audits', '2026-09-06-editorial', '03_axe_raw.json');
+    const outputDir = path.dirname(outputFile);
+    if (!fs.existsSync(outputDir)) {
+      fs.mkdirSync(outputDir, { recursive: true });
     }
-  } catch (err) {
-    // axe-core retorna exit code != 0 si encuentra violaciones, eso es OK
-    if (err.stdout) {
-      fs.writeFileSync(outputFile.replace('.json', '_stdout.txt'), err.stdout);
-    }
+    fs.writeFileSync(outputFile, JSON.stringify(results, null, 2));
   }
 
-  if (!fs.existsSync(outputFile)) {
-    throw new Error(`axe-core no generó output en ${outputFile}`);
-  }
+  // Cerrar el DOM
+  dom.window.close();
 
-  const raw = JSON.parse(fs.readFileSync(outputFile, 'utf8'));
-  return parseResults(raw);
+  return parseResults(results);
 }
 
 /**

@@ -6,6 +6,8 @@
 
 const { test } = require('node:test');
 const assert = require('node:assert');
+const path = require('path');
+const fs = require('fs');
 
 let auditAccessibility;
 try {
@@ -50,4 +52,17 @@ test('parseResults retorna estructura completa incluso sin passes/incomplete', (
   assert.ok(Array.isArray(parsed.moderate));
   assert.ok(Array.isArray(parsed.minor));
   assert.strictEqual(typeof parsed.totalNodes, 'number');
+});
+
+test('runAudit contra HTML simple detecta violaciones básicas', async () => {
+  // HTML mínimo con imagen sin alt, sin lang, sin title
+  const minimalHtml = `<!DOCTYPE html><html><head><title>Test</title></head><body><img src="x.png"><input type="text"></body></html>`;
+  const tmpPath = path.join(require('os').tmpdir(), 'test-audit-' + Date.now() + '.html');
+  fs.writeFileSync(tmpPath, minimalHtml);
+  try {
+    const result = await auditAccessibility.runAudit(tmpPath);
+    assert.ok(result.critical.length + result.serious.length + result.moderate.length + result.minor.length > 0, 'debe detectar al menos una violación');
+  } finally {
+    fs.unlinkSync(tmpPath);
+  }
 });
