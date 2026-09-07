@@ -1,0 +1,18 @@
+﻿Leyendo HTML: D:\AI\Investigaciones\Periodismo politico-economico\index.html
+Texto extraído: 53246 caracteres
+Chunks a procesar: 11 (5000 chars c/u, sleep 3500ms entre requests)
+Tiempo estimado: ~1 min
+[1/11] OK — 67 matches
+[2/11] OK — 44 matches
+[3/11] OK — 58 matches
+[4/11] OK — 39 matches
+[5/11] OK — 58 matches
+[6/11] OK — 46 matches
+[7/11] OK — 73 matches
+[8/11] OK — 72 matches
+[9/11] OK — 37 matches
+[10/11] OK — 53 matches
+[11/11] OK — 47 matches
+
+Total matches: 594 (chunks fallidos: 0/11)
+Reporte escrito: D:\AI\Investigaciones\Periodismo politico-economico\grammar_audit_report.md (9192 bytes)

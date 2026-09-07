@@ -1,0 +1,17 @@
+=== AUDITORÍA DE ACCESIBILIDAD WCAG 2.1 (post-fixes) ===
+Fecha: 2026-09-06
+Target: D:\AI\Investigaciones\Periodismo politico-economico\index.html
+Herramienta: axe-core 4.13.0 + jsdom 30.0.1
+
+=== RESUMEN POR SEVERIDAD ===
+critical: 0
+serious:  1
+moderate: 0
+minor:    0
+total nodes: 2
+
+=== DETALLE DE VIOLATIONS ===
+[SERIOUS] nested-interactive — Interactive controls must not be nested
+  Descripción: Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies
+  Nodos afectados: 2
+  Ejemplo target: :root

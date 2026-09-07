@@ -1,0 +1,36 @@
+=== META TAGS PARSEADOS (post-fixes) ===
+Fecha: 2026-09-06
+Target: index.html (184274 bytes, 2170 líneas)
+
+Tag                              | Length
+---------------------------------|--------
+title                             | 72
+viewport                          | 37
+description                       | 146
+keywords                          | 123
+author                            | 6
+robots                            | 13
+og:type                           | 7
+og:title                          | 42
+og:description                    | 166
+og:url                            | 55
+og:site_name                      | 21
+og:locale                         | 5
+og:image                          | 114
+og:image:width                    | 4
+og:image:height                   | 4
+og:image:alt                      | 58
+twitter:card                      | 19
+twitter:title                     | 42
+twitter:description               | 114
+twitter:image                     | 114
+twitter:image:alt                 | 50
+canonical                         | 55
+
+=== ISSUES ===
+Total: 0
+(ninguno)
+
+=== COBERTURA ===
+Tags REQUIRED presentes: 14/14
+Tags faltantes: (ninguno)
