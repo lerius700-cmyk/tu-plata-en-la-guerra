@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Tu plata en la guerra, tu opinión en venta — Investigación independiente</title>
-<meta name="description" content="Investigación periodística sobre el flujo de fondos de pensiones colombianos (AFP) hacia fabricantes de armas usados en Gaza. 50+ fuentes citadas, 15 pruebas documentales.">
+<meta name="description" content="Investigación periodística sobre el flujo de fondos de pensiones colombianos (AFP) hacia fabricantes de armas usados en Gaza. 50+ fuentes citadas.">
     <!-- SEO + Open Graph + Twitter Card + JSON-LD (agregado 2026-09-06) -->
     <meta name="keywords" content="Colombia, pensiones, AFP, Gaza, Valorem, Santo Domingo, La Pulla, Thomas Greg, Cerimedo, USAID, periodismo de investigación">
     <meta name="author" content="Lerius">
@@ -19,8 +19,8 @@
     <meta property="og:site_name" content="Tu plata en la guerra">
     <meta property="og:locale" content="es_CO">
     <meta property="og:image" content="https://lerius700-cmyk.github.io/tu-plata-en-la-guerra/evidencia/prueba-01-sentencia-consejo-estado-1412-mesas.jpg">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
+    <meta property="og:image:width" content="1265">
+    <meta property="og:image:height" content="1236">
     <meta property="og:image:alt" content="Captura de la sentencia del Consejo de Estado con la cita '3.630 registros (1.412 mesas)' resaltada en amarillo">
 
     <!-- Twitter Card -->
@@ -69,12 +69,13 @@
     --border-soft: #222;
     --text: #e8e8e8;
     --text-soft: #a8a8a8;
-    --text-mute: #707070;
+    --text-mute: #8a8a8a;
     --accent: #c2410c;
     --accent-bright: #ea580c;
     --gold: #fbbf24;
     --green: #10b981;
     --red: #dc2626;
+    --red-text: #ef4444;  /* 5.26:1 sobre #0a0a0a — para texto cumple WCAG AA */
     --red-soft: #7f1d1d;
     --blue: #3b82f6;
     --purple: #a855f7;
@@ -84,6 +85,28 @@
   }
 
   * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  *:focus-visible {
+    outline: 2px solid var(--accent-bright);
+    outline-offset: 2px;
+  }
+
+  /* SKIP LINK — a11y WCAG 2.4.1 Bypass Blocks */
+  .skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: var(--accent);
+    color: #fff;
+    padding: 8px 16px;
+    z-index: 1000;
+    text-decoration: none;
+    border-radius: 0 0 4px 0;
+    font-weight: 600;
+  }
+  .skip-link:focus {
+    top: 0;
+  }
 
   html { scroll-behavior: smooth; }
 
@@ -529,7 +552,7 @@
     margin: 16px 0;
     font-size: 0.9rem;
   }
-  .alert strong { color: var(--red); }
+  .alert strong { color: var(--red-text); }
 
   .callout {
     background: rgba(251, 191, 36, 0.08);
@@ -595,6 +618,8 @@
 </head>
 <body>
 
+<a href="#resumen" class="skip-link">Saltar al contenido</a>
+
 <header>
   <div class="logo">Tu plata <span>en la guerra</span></div>
   <div class="header-meta">
@@ -605,12 +630,12 @@
 </header>
 
 <div class="disclaimer">
-  <strong>AVISO LEGAL:</strong> Todas las afirmaciones que impliquen responsabilidad penal, civil o moral se expresan con el término "presuntamente" o mediante cita textual de las fuentes, conforme al principio de presunción de inocencia. Este material está en desarrollo. Última actualización: 01 de septiembre de 2026.
+  <strong>AVISO LEGAL:</strong> Todas las afirmaciones que impliquen responsabilidad penal, civil o moral se expresan con el término "presuntamente" o mediante cita textual de las fuentes, conforme al principio de presunción de inocencia. Este material está en desarrollo. Última actualización: 06 de septiembre de 2026.
 </div>
 
 <div class="container">
   <aside>
-    <input type="text" class="search-box" id="searchBox" placeholder="Buscar en la investigación...">
+    <input type="text" class="search-box" id="searchBox" placeholder="Buscar en la investigación..." aria-label="Buscar en la investigación">
     <h3>Índice</h3>
     <nav>
       <a href="#resumen"><small>00</small> Resumen ejecutivo</a>
@@ -718,7 +743,9 @@
 
       <div class="flow">
         <h4 style="margin-bottom: 12px; color: var(--text-soft);">Cadena de propiedad</h4>
-        <svg viewBox="0 0 800 220" xmlns="http://www.w3.org/2000/svg">
+        <svg viewBox="0 0 800 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="svg1-title svg1-desc">
+          <title id="svg1-title">Cadena de propiedad de La Pulla</title>
+          <desc id="svg1-desc">Diagrama que muestra cómo la familia Santo Domingo controla Valorem S.A., que a su vez controla Comunican S.A. y El Espectador, siendo La Pulla el producto final. También muestra otros activos del grupo Valorem: Caracol TV, D1, Cine Colombia, Blu Radio y Gases del Caribe.</desc>
           <defs>
             <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
               <polygon points="0 0, 9 3, 0 6" fill="#c2410c"/>
@@ -753,7 +780,7 @@
           <text x="680" y="48" text-anchor="middle" fill="#a8a8a8" font-size="11">1.2M+ suscriptores YouTube</text>
 
           <!-- Otros activos Valorem -->
-          <text x="100" y="150" text-anchor="middle" fill="#707070" font-size="11">↓ Otros activos de Valorem ↓</text>
+          <text x="100" y="150" text-anchor="middle" fill="#8a8a8a" font-size="11">↓ Otros activos de Valorem ↓</text>
           <rect x="20" y="160" width="120" height="40" rx="4" fill="#141414" stroke="#3a3a3a"/>
           <text x="80" y="180" text-anchor="middle" fill="#a8a8a8" font-size="10">Caracol TV (93%)</text>
           <rect x="150" y="160" width="100" height="40" rx="4" fill="#141414" stroke="#3a3a3a"/>
@@ -803,12 +830,12 @@
       <div class="sources">
         <h4>Fuentes de esta sección</h4>
         <ol>
-          <li><a href="http://www.colombia.mom-gmr.org/es/media/detail/outlet/el-espectadorcom/" target="_blank">Media Ownership Monitor Colombia — El Espectador</a> <span class="source-domain">colombia.mom-gmr.org</span></li>
-          <li><a href="https://valorem.com.co/acerca-de-valorem/" target="_blank">Valorem S.A. — Quiénes Somos</a> <span class="source-domain">valorem.com.co</span></li>
-          <li><a href="https://www.portafolio.co/negocios/empresas/quien-es-la-familia-santo-domingo-duenos-del-d1-que-aporto-100-000-millones-tras-el-terremoto-en-colombia-500475" target="_blank">Portafolio — Familia Santo Domingo</a> <span class="source-domain"><a class="inline-link" href="https://www.portafolio.co/" target="_blank" rel="noopener">portafolio</a>.co</span></li>
-          <li><a href="https://es.wikipedia.org/wiki/La_Pulla" target="_blank">Wikipedia — La Pulla</a> <span class="source-domain">es.<a class="inline-link" href="https://es.wikipedia.org/" target="_blank" rel="noopener">wikipedia</a>.org</span></li>
-          <li><a href="https://pluralidadz.com/politica/maria-paulina-baena-el-odio-en-redes-sociales-era-muy-abrumador/" target="_blank">Pluralidad Z — Entrevista María Paulina Baena</a> <span class="source-domain">pluralidadz.com</span></li>
-          <li><a href="https://www.lasillavacia.com/en-vivo/cambios-en-la-pulla-se-va-maria-paulina-baena/" target="_blank">La Silla Vacía — Cambios en La Pulla</a> <span class="source-domain">lasillavacia.com</span></li>
+          <li><a href="http://www.colombia.mom-gmr.org/es/media/detail/outlet/el-espectadorcom/" target="_blank" rel="noopener">Media Ownership Monitor Colombia — El Espectador</a> <span class="source-domain">colombia.mom-gmr.org</span></li>
+          <li><a href="https://valorem.com.co/acerca-de-valorem/" target="_blank" rel="noopener">Valorem S.A. — Quiénes Somos</a> <span class="source-domain">valorem.com.co</span></li>
+          <li><a href="https://www.portafolio.co/negocios/empresas/quien-es-la-familia-santo-domingo-duenos-del-d1-que-aporto-100-000-millones-tras-el-terremoto-en-colombia-500475" target="_blank" rel="noopener">Portafolio — Familia Santo Domingo</a> <span class="source-domain"><a class="inline-link" href="https://www.portafolio.co/" target="_blank" rel="noopener">portafolio</a>.co</span></li>
+          <li><a href="https://es.wikipedia.org/wiki/La_Pulla" target="_blank" rel="noopener">Wikipedia — La Pulla</a> <span class="source-domain">es.<a class="inline-link" href="https://es.wikipedia.org/" target="_blank" rel="noopener">wikipedia</a>.org</span></li>
+          <li><a href="https://pluralidadz.com/politica/maria-paulina-baena-el-odio-en-redes-sociales-era-muy-abrumador/" target="_blank" rel="noopener">Pluralidad Z — Entrevista María Paulina Baena</a> <span class="source-domain">pluralidadz.com</span></li>
+          <li><a href="https://www.lasillavacia.com/en-vivo/cambios-en-la-pulla-se-va-maria-paulina-baena/" target="_blank" rel="noopener">La Silla Vacía — Cambios en La Pulla</a> <span class="source-domain">lasillavacia.com</span></li>
         </ol>
       </div>
     </section>
@@ -820,7 +847,9 @@
 
       <div class="flow">
         <h4 style="margin-bottom: 12px; color: var(--text-soft);">Cadena de intermediación financiera (presunta) — click cada caja para ver la prueba</h4>
-        <svg viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="cursor: default;">
+        <svg viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="cursor: default;" role="img" aria-labelledby="svg2-title svg2-desc">
+          <title id="svg2-title">Cadena de intermediación financiera AFP → Gaza</title>
+          <desc id="svg2-desc">Diagrama de flujo en 4 capas que muestra cómo los aportes obligatorios de los trabajadores colombianos llegan a fondos de pensiones (Porvenir, Protección/Colfondos, Skandia), de ahí a gestoras internacionales (BlackRock, Vanguard, Barclays, JP Morgan, Invesco), y de ahí a empresas armamentísticas (Elbit Systems, Lockheed Martin, Leonardo, Caterpillar, Palantir, IAI/Rafael) cuyos productos son usados en el bombardeo de Gaza. Cada caja es un enlace a la fuente o prueba documental correspondiente.</desc>
           <defs>
             <marker id="arr" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
               <polygon points="0 0, 9 3, 0 6" fill="#dc2626"/>
@@ -833,7 +862,7 @@
             </style>
           </defs>
           <!-- Layer 1: Trabajador -->
-          <a class="chain-link" xlink:href="https://www.aporteresolidario.com/" target="_blank" rel="noopener" title="Trabajador colombiano — cotización obligatoria a pensión">
+          <a class="chain-link" xlink:href="https://www.aporteresolidario.com/" target="_blank" rel="noopener" role="link" tabindex="0" aria-label="Trabajador colombiano — cotización obligatoria a pensión" title="Trabajador colombiano — cotización obligatoria a pensión">
             <rect x="350" y="10" width="200" height="50" rx="4" fill="#7f1d1d" stroke="#dc2626" stroke-width="2"/>
             <text x="450" y="35" text-anchor="middle" fill="#fff" font-size="13" font-weight="bold">Trabajador colombiano</text>
             <text x="450" y="50" text-anchor="middle" fill="#fff" font-size="11">(aporte obligatorio a pensión)</text>
@@ -842,19 +871,19 @@
           <line x1="450" y1="60" x2="450" y2="90" stroke="#dc2626" stroke-width="2" marker-end="url(#arr)"/>
 
           <!-- Layer 2: AFP -->
-          <a class="chain-link" xlink:href="https://cuestionpublica.com/felicidades-tus-ahorros-siguen-creciendo-con-el-bombardeo-de-ninos-en-gaza/" target="_blank" rel="noopener" title="Porvenir (Grupo Aval) — administrador nacional AFP · Cuestión Pública">
+          <a class="chain-link" xlink:href="https://cuestionpublica.com/felicidades-tus-ahorros-siguen-creciendo-con-el-bombardeo-de-ninos-en-gaza/" target="_blank" rel="noopener" role="link" tabindex="0" aria-label="Porvenir (Grupo Aval) — administrador nacional AFP · Cuestión Pública" title="Porvenir (Grupo Aval) — administrador nacional AFP · Cuestión Pública">
             <rect x="100" y="90" width="180" height="50" rx="4" fill="#1c1c1c" stroke="#fbbf24" stroke-width="2"/>
             <text x="190" y="115" text-anchor="middle" fill="#e8e8e8" font-size="12" font-weight="bold">Porvenir</text>
             <text x="190" y="130" text-anchor="middle" fill="#a8a8a8" font-size="10">(Grupo Aval)</text>
           </a>
 
-          <a class="chain-link" xlink:href="https://cuestionpublica.com/felicidades-tus-ahorros-siguen-creciendo-con-el-bombardeo-de-ninos-en-gaza/" target="_blank" rel="noopener" title="Protección / Colfondos (Sura / Grupo Aval) — administrador nacional AFP · Cuestión Pública">
+          <a class="chain-link" xlink:href="https://cuestionpublica.com/felicidades-tus-ahorros-siguen-creciendo-con-el-bombardeo-de-ninos-en-gaza/" target="_blank" rel="noopener" role="link" tabindex="0" aria-label="Protección / Colfondos (Sura / Grupo Aval) — administrador nacional AFP · Cuestión Pública" title="Protección / Colfondos (Sura / Grupo Aval) — administrador nacional AFP · Cuestión Pública">
             <rect x="300" y="90" width="180" height="50" rx="4" fill="#1c1c1c" stroke="#fbbf24" stroke-width="2"/>
             <text x="390" y="115" text-anchor="middle" fill="#e8e8e8" font-size="12" font-weight="bold">Protección / Colfondos</text>
             <text x="390" y="130" text-anchor="middle" fill="#a8a8a8" font-size="10">(Sura / grupo Aval)</text>
           </a>
 
-          <a class="chain-link" xlink:href="https://cuestionpublica.com/felicidades-tus-ahorros-siguen-creciendo-con-el-bombardeo-de-ninos-en-gaza/" target="_blank" rel="noopener" title="Skandia (Global Investments) — administrador nacional AFP · Cuestión Pública">
+          <a class="chain-link" xlink:href="https://cuestionpublica.com/felicidades-tus-ahorros-siguen-creciendo-con-el-bombardeo-de-ninos-en-gaza/" target="_blank" rel="noopener" role="link" tabindex="0" aria-label="Skandia (Global Investments) — administrador nacional AFP · Cuestión Pública" title="Skandia (Global Investments) — administrador nacional AFP · Cuestión Pública">
             <rect x="500" y="90" width="180" height="50" rx="4" fill="#1c1c1c" stroke="#fbbf24" stroke-width="2"/>
             <text x="590" y="115" text-anchor="middle" fill="#e8e8e8" font-size="12" font-weight="bold">Skandia</text>
             <text x="590" y="130" text-anchor="middle" fill="#a8a8a8" font-size="10">(Global Investments)</text>
@@ -865,31 +894,31 @@
           <line x1="590" y1="140" x2="590" y2="170" stroke="#fbbf24" stroke-width="2" marker-end="url(#arr)"/>
 
           <!-- Layer 3: Gestoras internacionales -->
-          <a class="chain-link" xlink:href="https://www.ishares.com/es/latinoamerica" target="_blank" rel="noopener" title="BlackRock iShares ETF — gestora internacional · ishares.com">
+          <a class="chain-link" xlink:href="https://www.ishares.com/es/latinoamerica" target="_blank" rel="noopener" role="link" tabindex="0" aria-label="BlackRock iShares ETF — gestora internacional · ishares.com" title="BlackRock iShares ETF — gestora internacional · ishares.com">
             <rect x="40" y="170" width="120" height="50" rx="4" fill="#1c1c1c" stroke="#3b82f6" stroke-width="2"/>
             <text x="100" y="195" text-anchor="middle" fill="#e8e8e8" font-size="11" font-weight="bold">BlackRock</text>
             <text x="100" y="210" text-anchor="middle" fill="#a8a8a8" font-size="9">iShares ETF</text>
           </a>
 
-          <a class="chain-link" xlink:href="https://investor.vanguard.com/investment-products/etfs" target="_blank" rel="noopener" title="Vanguard — gestora internacional · investor.vanguard.com">
+          <a class="chain-link" xlink:href="https://investor.vanguard.com/investment-products/etfs" target="_blank" rel="noopener" role="link" tabindex="0" aria-label="Vanguard — gestora internacional · investor.vanguard.com" title="Vanguard — gestora internacional · investor.vanguard.com">
             <rect x="180" y="170" width="120" height="50" rx="4" fill="#1c1c1c" stroke="#3b82f6" stroke-width="2"/>
             <text x="240" y="195" text-anchor="middle" fill="#e8e8e8" font-size="11" font-weight="bold">Vanguard</text>
             <text x="240" y="210" text-anchor="middle" fill="#a8a8a8" font-size="9">fondos indexados</text>
           </a>
 
-          <a class="chain-link" xlink:href="https://www.barclays.co.uk/investments/" target="_blank" rel="noopener" title="Barclays PLC matriz — accionista de Elbit Systems · Cuestión Pública">
+          <a class="chain-link" xlink:href="https://www.barclays.co.uk/investments/" target="_blank" rel="noopener" role="link" tabindex="0" aria-label="Barclays PLC matriz — accionista de Elbit Systems · Cuestión Pública" title="Barclays PLC matriz — accionista de Elbit Systems · Cuestión Pública">
             <rect x="320" y="170" width="120" height="50" rx="4" fill="#1c1c1c" stroke="#3b82f6" stroke-width="2"/>
             <text x="380" y="195" text-anchor="middle" fill="#e8e8e8" font-size="11" font-weight="bold">Barclays</text>
             <text x="380" y="210" text-anchor="middle" fill="#a8a8a8" font-size="9">PLC matriz</text>
           </a>
 
-          <a class="chain-link" xlink:href="https://am.jpmorgan.com/us/en/asset-management" target="_blank" rel="noopener" title="JP Morgan BetaBuilders — gestora internacional · am.jpmorgan.com">
+          <a class="chain-link" xlink:href="https://am.jpmorgan.com/us/en/asset-management" target="_blank" rel="noopener" role="link" tabindex="0" aria-label="JP Morgan BetaBuilders — gestora internacional · am.jpmorgan.com" title="JP Morgan BetaBuilders — gestora internacional · am.jpmorgan.com">
             <rect x="460" y="170" width="120" height="50" rx="4" fill="#1c1c1c" stroke="#3b82f6" stroke-width="2"/>
             <text x="520" y="195" text-anchor="middle" fill="#e8e8e8" font-size="11" font-weight="bold">JP Morgan</text>
             <text x="520" y="210" text-anchor="middle" fill="#a8a8a8" font-size="9">BetaBuilders</text>
           </a>
 
-          <a class="chain-link" xlink:href="https://www.invesco.com/" target="_blank" rel="noopener" title="Invesco S&amp;P 500 / Nasdaq — gestora internacional · invesco.com">
+          <a class="chain-link" xlink:href="https://www.invesco.com/" target="_blank" rel="noopener" role="link" tabindex="0" aria-label="Invesco S&amp;P 500 / Nasdaq — gestora internacional · invesco.com" title="Invesco S&amp;P 500 / Nasdaq — gestora internacional · invesco.com">
             <rect x="600" y="170" width="120" height="50" rx="4" fill="#1c1c1c" stroke="#3b82f6" stroke-width="2"/>
             <text x="660" y="195" text-anchor="middle" fill="#e8e8e8" font-size="11" font-weight="bold">Invesco</text>
             <text x="660" y="210" text-anchor="middle" fill="#a8a8a8" font-size="9">S&amp;P 500 / Nasdaq</text>
@@ -902,39 +931,39 @@
           <line x1="660" y1="220" x2="660" y2="248" stroke="#dc2626" stroke-width="1.5"/>
 
           <!-- Layer 4: Empresas armamentísticas -->
-          <a class="chain-link" xlink:href="#prueba-4" target="_blank" rel="noopener" title="Elbit Systems (Israel) — drones, radares, Iron Fist · Informe Albanese #prueba-4">
+          <a class="chain-link" xlink:href="#prueba-4" target="_blank" rel="noopener" role="link" tabindex="0" aria-label="Elbit Systems (Israel) — drones, radares, Iron Fist · Informe Albanese #prueba-4" title="Elbit Systems (Israel) — drones, radares, Iron Fist · Informe Albanese #prueba-4">
             <rect x="10" y="248" width="100" height="28" rx="3" fill="#1c1c1c" stroke="#dc2626" stroke-width="1.5"/>
             <text x="60" y="266" text-anchor="middle" fill="#fff" font-size="10" font-weight="bold">Elbit Systems</text>
           </a>
 
-          <a class="chain-link" xlink:href="#prueba-14" target="_blank" rel="noopener" title="Lockheed Martin (EE.UU.) — F-35, JDAM, misiles · CIPER Chile #prueba-14">
+          <a class="chain-link" xlink:href="#prueba-14" target="_blank" rel="noopener" role="link" tabindex="0" aria-label="Lockheed Martin (EE.UU.) — F-35, JDAM, misiles · CIPER Chile #prueba-14" title="Lockheed Martin (EE.UU.) — F-35, JDAM, misiles · CIPER Chile #prueba-14">
             <rect x="120" y="248" width="100" height="28" rx="3" fill="#1c1c1c" stroke="#dc2626" stroke-width="1.5"/>
             <text x="170" y="266" text-anchor="middle" fill="#fff" font-size="10" font-weight="bold">Lockheed</text>
           </a>
 
-          <a class="chain-link" xlink:href="#prueba-12" target="_blank" rel="noopener" title="Leonardo S.p.A. (Italia, 30,2% Estado italiano) — M-346, cañones Sa'ar 6, F-35 · Ley 185/1990 #prueba-12">
+          <a class="chain-link" xlink:href="#prueba-12" target="_blank" rel="noopener" role="link" tabindex="0" aria-label="Leonardo S.p.A. (Italia, 30,2% Estado italiano) — M-346, cañones Sa'ar 6, F-35 · Ley 185/1990 #prueba-12" title="Leonardo S.p.A. (Italia, 30,2% Estado italiano) — M-346, cañones Sa'ar 6, F-35 · Ley 185/1990 #prueba-12">
             <rect x="230" y="248" width="100" height="28" rx="3" fill="#1c1c1c" stroke="#dc2626" stroke-width="1.5"/>
             <text x="280" y="266" text-anchor="middle" fill="#fff" font-size="10" font-weight="bold">Leonardo (IT)</text>
           </a>
 
-          <a class="chain-link" xlink:href="#prueba-3" target="_blank" rel="noopener" title="Caterpillar (EE.UU.) — excavadoras D9 demuelen casas palestinas · Fondo Noruego exclusion #prueba-3">
+          <a class="chain-link" xlink:href="#prueba-3" target="_blank" rel="noopener" role="link" tabindex="0" aria-label="Caterpillar (EE.UU.) — excavadoras D9 demuelen casas palestinas · Fondo Noruego exclusion #prueba-3" title="Caterpillar (EE.UU.) — excavadoras D9 demuelen casas palestinas · Fondo Noruego exclusion #prueba-3">
             <rect x="340" y="248" width="100" height="28" rx="3" fill="#1c1c1c" stroke="#dc2626" stroke-width="1.5"/>
             <text x="390" y="266" text-anchor="middle" fill="#fff" font-size="10" font-weight="bold">Caterpillar</text>
           </a>
 
-          <a class="chain-link" xlink:href="#prueba-14" target="_blank" rel="noopener" title="Palantir (EE.UU.) — software IA, big data, targeting militar · CIPER Chile #prueba-14">
+          <a class="chain-link" xlink:href="#prueba-14" target="_blank" rel="noopener" role="link" tabindex="0" aria-label="Palantir (EE.UU.) — software IA, big data, targeting militar · CIPER Chile #prueba-14" title="Palantir (EE.UU.) — software IA, big data, targeting militar · CIPER Chile #prueba-14">
             <rect x="450" y="248" width="100" height="28" rx="3" fill="#1c1c1c" stroke="#dc2626" stroke-width="1.5"/>
             <text x="500" y="266" text-anchor="middle" fill="#fff" font-size="10" font-weight="bold">Palantir</text>
           </a>
 
-          <a class="chain-link" xlink:href="#prueba-4" target="_blank" rel="noopener" title="IAI / Rafael (Israel) — Iron Dome, sistemas de defensa · Informe Albanese #prueba-4">
+          <a class="chain-link" xlink:href="#prueba-4" target="_blank" rel="noopener" role="link" tabindex="0" aria-label="IAI / Rafael (Israel) — Iron Dome, sistemas de defensa · Informe Albanese #prueba-4" title="IAI / Rafael (Israel) — Iron Dome, sistemas de defensa · Informe Albanese #prueba-4">
             <rect x="560" y="248" width="100" height="28" rx="3" fill="#1c1c1c" stroke="#dc2626" stroke-width="1.5"/>
             <text x="610" y="266" text-anchor="middle" fill="#fff" font-size="10" font-weight="bold">IAI / Rafael</text>
           </a>
 
           <line x1="200" y1="276" x2="450" y2="276" stroke="#dc2626" stroke-width="2" marker-end="url(#arr)"/>
           <text x="400" y="270" text-anchor="end" fill="#dc2626" font-size="11" font-weight="bold">→</text>
-          <a class="chain-link" xlink:href="https://www.un.org/unispal/document/special-rapporteur-report-gaza-genocide-a-collective-crime-20oct25/" target="_blank" rel="noopener" title="GAZA — bombardeo + demoliciones · UN UNISPAL Albanese">
+          <a class="chain-link" xlink:href="https://www.un.org/unispal/document/special-rapporteur-report-gaza-genocide-a-collective-crime-20oct25/" target="_blank" rel="noopener" role="link" tabindex="0" aria-label="GAZA — bombardeo + demoliciones · UN UNISPAL Albanese" title="GAZA — bombardeo + demoliciones · UN UNISPAL Albanese">
             <rect x="680" y="252" width="180" height="40" rx="4" fill="#7f1d1d" stroke="#dc2626" stroke-width="2"/>
             <text x="770" y="270" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">GAZA</text>
             <text x="770" y="285" text-anchor="middle" fill="#fff" font-size="10">(bombardeo + demoliciones)</text>
@@ -1009,7 +1038,7 @@
       </details>
 
       <details class="panel">
-        <summary>La propuesta de <a class="inline-link" href="https://es.wikipedia.org/wiki/Gustavo_Petro" target="_blank" rel="noopener">Petro</a>: repatriar $100 billones en 5 años</summary>
+        <summary>La propuesta de <span class="inline-link">Petro</span>: repatriar $100 billones en 5 años</summary>
         <div class="panel-body">
           <p>Tras la investigación de Cuestión Pública, Petro inició en agosto de 2025 una campaña pública y en enero de 2026 publicó un borrador de decreto que busca:</p>
           <ul style="margin-left: 20px; line-height: 1.7;">
@@ -1026,11 +1055,14 @@
             "Ese 30 por ciento ha ido a empresas multinacionales que son cómplices, porque prestan sus dineros y sus productos para hacer bombas y aviones con los cuales están despedazando decenas de miles de bebés en el pueblo de Gaza en Palestina."
             <cite>Gustavo Petro, Bucaramanga, agosto 2025</cite>
           </blockquote>
+          <div class="callout" style="margin-top: 16px;">
+            <strong>⚠️ Actualización 2026-09:</strong> El Gobierno de <a class="inline-link" href="https://es.wikipedia.org/wiki/Abelardo_de_la_Espriella" target="_blank" rel="noopener">De la Espriella</a> estaría <strong>preparando la derogación del Decreto 0369/2026</strong> (que limita las inversiones exteriores de las AFP y repatriaba hasta $100B en 5 años). Si se concreta, el intento de Petro pierde efecto práctico. <strong>Fuente:</strong> <a class="inline-link" href="https://www.elpais.com.co/economia/gobierno-prepara-posible-cambio-en-las-inversiones-de-los-fondos-privados-de-pensiones-0213.html" target="_blank" rel="noopener">El País, "Nuevo Gobierno estudia reversar límites a las inversiones de las AFP"</a>.
+          </div>
         </div>
       </details>
 
       <details class="panel">
-        <summary>El precedente chileno: <a class="inline-link" href="https://www.ciperchile.cl/" target="_blank" rel="noopener">CIPER</a> Chile, oct 2025</summary>
+        <summary>El precedente chileno: <span class="inline-link">CIPER</span> Chile, oct 2025</summary>
         <div class="panel-body">
           <p>El centro de investigación <strong>CIPER Chile</strong> hizo una investigación paralela. A julio de 2025, las AFP chilenas habían colocado:</p>
           <ul style="margin-left: 20px; line-height: 1.7;">
@@ -1044,13 +1076,13 @@
       <div class="sources">
         <h4>Fuentes de esta sección</h4>
         <ol>
-          <li><a href="https://cuestionpublica.com/felicidades-tus-ahorros-siguen-creciendo-con-el-bombardeo-de-ninos-en-gaza/" target="_blank">Cuestión Pública — "¡Felicidades! Tus ahorros siguen creciendo..." (17/12/2025)</a> <span class="source-domain">cuestionpublica.com</span></li>
-          <li><a href="https://www.ciperchile.cl/2025/10/13/al-menos-us-34-millones-administrados-por-las-afp-terminaron-en-companias-acusadas-de-beneficiarse-con-la-tragedia-en-gaza/" target="_blank">CIPER Chile — AFP y armas (13/10/2025)</a> <span class="source-domain">ciperchile.cl</span></li>
-          <li><a href="https://www.semana.com/economia/articulo/iniciativa-polemica-el-gobierno-busca-repatriar-los-recursos-que-tienen-los-fondos-de-pensiones-en-el-exterior-y-la-rentabilidad/202555/" target="_blank">Semana — Texto completo de Petro sobre AFP</a> <span class="source-domain"><a class="inline-link" href="https://www.semana.com/" target="_blank" rel="noopener">semana</a>.com</span></li>
-          <li><a href="https://www.infobae.com/colombia/2025/12/14/cambio-en-el-destino-del-ahorro-de-las-pensiones-habria-generado-la-renuncia-de-decenas-de-funcionarios-del-gobierno-petro/" target="_blank">Infobae — AFP administran $527,3 billones</a> <span class="source-domain"><a class="inline-link" href="https://www.infobae.com/" target="_blank" rel="noopener">infobae</a>.com</span></li>
-          <li><a href="https://www.infobae.com/colombia/2026/01/21/gobierno-petro-defendio-nueva-regla-sobre-pensiones-y-dejo-claro-que-ahora-los-inversores-tienen-dos-alternativas-con-la-plata/" target="_blank">Infobae — Decreto Petro repatriación (21/01/2026)</a> <span class="source-domain">infobae.com</span></li>
-          <li><a href="https://www.elespectador.com/economia/gobierno-avanza-en-plan-para-traer-ahorro-pensional-al-pais-esto-dice-borrador-de-decreto/" target="_blank">El Espectador — Borrador del decreto</a> <span class="source-domain">elespectador.com</span></li>
-          <li><a href="https://www.pulzo.com/economia/gustavo-petro-insiste-repatriar-dinero-pensiones-fondos-privados-PP4984307" target="_blank">Pulzo — Petro insiste en repatriar</a> <span class="source-domain">pulzo.com</span></li>
+          <li><a href="https://cuestionpublica.com/felicidades-tus-ahorros-siguen-creciendo-con-el-bombardeo-de-ninos-en-gaza/" target="_blank" rel="noopener">Cuestión Pública — "¡Felicidades! Tus ahorros siguen creciendo..." (17/12/2025)</a> <span class="source-domain">cuestionpublica.com</span></li>
+          <li><a href="https://www.ciperchile.cl/2025/10/13/al-menos-us-34-millones-administrados-por-las-afp-terminaron-en-companias-acusadas-de-beneficiarse-con-la-tragedia-en-gaza/" target="_blank" rel="noopener">CIPER Chile — AFP y armas (13/10/2025)</a> <span class="source-domain">ciperchile.cl</span></li>
+          <li><a href="https://www.semana.com/economia/articulo/iniciativa-polemica-el-gobierno-busca-repatriar-los-recursos-que-tienen-los-fondos-de-pensiones-en-el-exterior-y-la-rentabilidad/202555/" target="_blank" rel="noopener">Semana — Texto completo de Petro sobre AFP</a> <span class="source-domain"><a class="inline-link" href="https://www.semana.com/" target="_blank" rel="noopener">semana</a>.com</span></li>
+          <li><a href="https://www.infobae.com/colombia/2025/12/14/cambio-en-el-destino-del-ahorro-de-las-pensiones-habria-generado-la-renuncia-de-decenas-de-funcionarios-del-gobierno-petro/" target="_blank" rel="noopener">Infobae — AFP administran $527,3 billones</a> <span class="source-domain"><a class="inline-link" href="https://www.infobae.com/" target="_blank" rel="noopener">infobae</a>.com</span></li>
+          <li><a href="https://www.infobae.com/colombia/2026/01/21/gobierno-petro-defendio-nueva-regla-sobre-pensiones-y-dejo-claro-que-ahora-los-inversores-tienen-dos-alternativas-con-la-plata/" target="_blank" rel="noopener">Infobae — Decreto Petro repatriación (21/01/2026)</a> <span class="source-domain">infobae.com</span></li>
+          <li><a href="https://www.elespectador.com/economia/gobierno-avanza-en-plan-para-traer-ahorro-pensional-al-pais-esto-dice-borrador-de-decreto/" target="_blank" rel="noopener">El Espectador — Borrador del decreto</a> <span class="source-domain">elespectador.com</span></li>
+          <li><a href="https://www.pulzo.com/economia/gustavo-petro-insiste-repatriar-dinero-pensiones-fondos-privados-PP4984307" target="_blank" rel="noopener">Pulzo — Petro insiste en repatriar</a> <span class="source-domain">pulzo.com</span></li>
         </ol>
       </div>
     </section>
@@ -1113,13 +1145,13 @@
       <div class="sources">
         <h4>Fuentes de esta sección</h4>
         <ol>
-          <li><a href="https://www.regjeringen.no/en/documents/annual-report-2025/id3152102/?ch=5" target="_blank">Norwegian Government — Annual Report 2025 (lista oficial de exclusión)</a> <span class="source-domain">regjeringen.no</span></li>
-          <li><a href="https://elpais.com/economia/negocios/2025-09-23/caterpillar-levanta-un-imperio-sobre-los-escombros.html" target="_blank">El País — "Caterpillar levanta un imperio sobre los escombros"</a> <span class="source-domain">elpais.com</span></li>
-          <li><a href="https://www.elsaltodiario.com/ocupacion-israeli/colaborar-israel-territorios-ocupados-se-convierte-un-mal-negocio-empresas-espanolas" target="_blank">El Salto — Cronología completa desinversiones</a> <span class="source-domain">elsaltodiario.com</span></li>
-          <li><a href="https://cincodias.elpais.com/mercados-financieros/2025-09-13/las-grandes-gestoras-ignoran-a-gaza-en-sus-politicas-de-inversion-responsable.html" target="_blank">Cinco Días — Gestoras ignoran a Palestina</a> <span class="source-domain">cincodias.elpais.com</span></li>
-          <li><a href="https://www.jns.org/israel-news/amid-us-pressure-norway-halts-sovereign-wealth-funds-boycott-of-israel" target="_blank">JNS — "Amid US pressure, Norway halts..."</a> <span class="source-domain">jns.org</span></li>
-          <li><a href="https://www.cnbc.com/2025/09/04/white-house-hits-out-at-norway-wealth-fund-over-caterpillar-exit.html" target="_blank">CNBC — White House criticism to Norway</a> <span class="source-domain">cnbc.com</span></li>
-          <li><a href="https://forbes.es/economia/823981/noruega-suspende-las-desinversiones-eticas-de-su-fondo-soberano/" target="_blank">Forbes España — Suspensión de la desinversión</a> <span class="source-domain"><a class="inline-link" href="https://www.forbes.com/" target="_blank" rel="noopener">forbes</a>.es</span></li>
+          <li><a href="https://www.regjeringen.no/en/documents/annual-report-2025/id3152102/?ch=5" target="_blank" rel="noopener">Norwegian Government — Annual Report 2025 (lista oficial de exclusión)</a> <span class="source-domain">regjeringen.no</span></li>
+          <li><a href="https://elpais.com/economia/negocios/2025-09-23/caterpillar-levanta-un-imperio-sobre-los-escombros.html" target="_blank" rel="noopener">El País — "Caterpillar levanta un imperio sobre los escombros"</a> <span class="source-domain">elpais.com</span></li>
+          <li><a href="https://www.elsaltodiario.com/ocupacion-israeli/colaborar-israel-territorios-ocupados-se-convierte-un-mal-negocio-empresas-espanolas" target="_blank" rel="noopener">El Salto — Cronología completa desinversiones</a> <span class="source-domain">elsaltodiario.com</span></li>
+          <li><a href="https://cincodias.elpais.com/mercados-financieros/2025-09-13/las-grandes-gestoras-ignoran-a-gaza-en-sus-politicas-de-inversion-responsable.html" target="_blank" rel="noopener">Cinco Días — Gestoras ignoran a Palestina</a> <span class="source-domain">cincodias.elpais.com</span></li>
+          <li><a href="https://www.jns.org/israel-news/amid-us-pressure-norway-halts-sovereign-wealth-funds-boycott-of-israel" target="_blank" rel="noopener">JNS — "Amid US pressure, Norway halts..."</a> <span class="source-domain">jns.org</span></li>
+          <li><a href="https://www.cnbc.com/2025/09/04/white-house-hits-out-at-norway-wealth-fund-over-caterpillar-exit.html" target="_blank" rel="noopener">CNBC — White House criticism to Norway</a> <span class="source-domain">cnbc.com</span></li>
+          <li><a href="https://forbes.es/economia/823981/noruega-suspende-las-desinversiones-eticas-de-su-fondo-soberano/" target="_blank" rel="noopener">Forbes España — Suspensión de la desinversión</a> <span class="source-domain"><a class="inline-link" href="https://www.forbes.com/" target="_blank" rel="noopener">forbes</a>.es</span></li>
         </ol>
       </div>
     </section>
@@ -1178,11 +1210,11 @@
       <div class="sources">
         <h4>Fuentes de esta sección</h4>
         <ol>
-          <li><a href="https://www.un.org/unispal/document/special-rapporteur-report-gaza-genocide-a-collective-crime-20oct25/" target="_blank">UN UNISPAL — Informe completo (20/10/2025)</a> <span class="source-domain">un.org</span></li>
-          <li><a href="https://elpais.com/internacional/2025-10-28/la-relatora-de-la-onu-para-palestina-acusa-a-comunidad-internacional-de-complicidad-en-la-ofensiva-israeli-en-gaza.html" target="_blank">El País — "La relatora de la ONU para Palestina..."</a> <span class="source-domain">elpais.com</span></li>
-          <li><a href="https://www.sinembargo.mx/4816515/francesca-decidio-denunciar-el-genocidio-en-gaza-eu-e-israel-la-persiguen-close-up/" target="_blank">SinEmbargo — Francesca decidió denunciar</a> <span class="source-domain">sinembargo.mx</span></li>
-          <li><a href="https://www.thenation.com/article/world/francesca-albanese-interview-palestine/" target="_blank">The Nation — "Francesca Albanese Won't Back Down"</a> <span class="source-domain">thenation.com</span></li>
-          <li><a href="https://www.resumenlatinoamericano.org/2025/11/16/palestina-entrevista-a-francesca-albanese-los-estados-miembros-complices-del-genocidio-israeli/" target="_blank">Resumen Latinoamericano — Entrevista</a> <span class="source-domain">resumenlatinoamericano.org</span></li>
+          <li><a href="https://www.un.org/unispal/document/special-rapporteur-report-gaza-genocide-a-collective-crime-20oct25/" target="_blank" rel="noopener">UN UNISPAL — Informe completo (20/10/2025)</a> <span class="source-domain">un.org</span></li>
+          <li><a href="https://elpais.com/internacional/2025-10-28/la-relatora-de-la-onu-para-palestina-acusa-a-comunidad-internacional-de-complicidad-en-la-ofensiva-israeli-en-gaza.html" target="_blank" rel="noopener">El País — "La relatora de la ONU para Palestina..."</a> <span class="source-domain">elpais.com</span></li>
+          <li><a href="https://www.sinembargo.mx/4816515/francesca-decidio-denunciar-el-genocidio-en-gaza-eu-e-israel-la-persiguen-close-up/" target="_blank" rel="noopener">SinEmbargo — Francesca decidió denunciar</a> <span class="source-domain">sinembargo.mx</span></li>
+          <li><a href="https://www.thenation.com/article/world/francesca-albanese-interview-palestine/" target="_blank" rel="noopener">The Nation — "Francesca Albanese Won't Back Down"</a> <span class="source-domain">thenation.com</span></li>
+          <li><a href="https://www.resumenlatinoamericano.org/2025/11/16/palestina-entrevista-a-francesca-albanese-los-estados-miembros-complices-del-genocidio-israeli/" target="_blank" rel="noopener">Resumen Latinoamericano — Entrevista</a> <span class="source-domain">resumenlatinoamericano.org</span></li>
         </ol>
       </div>
     </section>
@@ -1268,12 +1300,12 @@
       <div class="sources">
         <h4>Fuentes de esta sección</h4>
         <ol>
-          <li><a href="https://www.ilfattoquotidiano.it/2026/05/06/armi-italia-israele-spedizioni-militari-notizie/8376959/" target="_blank">Il Fatto Quotidiano — "Italia-Israele: 400 spedizioni militari" (06/05/2026)</a> <span class="source-domain">ilfattoquotidiano.it</span></li>
-          <li><a href="https://it.euronews.com/2025/10/30/francesca-albanese-accusa-63-paesi-di-complicita-nel-genocidio-a-gaza-ce-anche-litalia" target="_blank">Euronews Italia — "Albanese accusa l'Italia"</a> <span class="source-domain">it.euronews.com</span></li>
-          <li><a href="https://www.lindipendente.online/2025/10/20/un-rapporto-fa-luce-sui-legami-tra-leonardo-spa-e-il-genocidio-israeliano-a-gaza/" target="_blank">L'Indipendente — Rapporto Leonardo-Gaza</a> <span class="source-domain">lindipendente.online</span></li>
-          <li><a href="https://infodifesa.it/leonardo-e-lombra-di-gaza-cingolani-contrattacca-tra-accuse-onu-e-realpolitik-della-difesa/" target="_blank">Infodifesa — Entrevista a Cingolani</a> <span class="source-domain">infodifesa.it</span></li>
-          <li><a href="https://laviniamarchetti.altervista.org/francesca-albanese-presenta-il-rapporto-onu-genocidio-di-gaza-un-crimine-collettivo-alla-camera-3-febbraio-2026/" target="_blank">Albanese en la Cámara italiana (03/02/2026)</a> <span class="source-domain">laviniamarchetti.altervista.org</span></li>
-          <li><a href="https://es.wikipedia.org/wiki/Genocidio_palestino_en_Gaza" target="_blank">Wikipedia ES — Genocidio palestino en Gaza (sección Italia)</a> <span class="source-domain">es.<a class="inline-link" href="https://es.wikipedia.org/" target="_blank" rel="noopener">wikipedia</a>.org</span></li>
+          <li><a href="https://www.ilfattoquotidiano.it/2026/05/06/armi-italia-israele-spedizioni-militari-notizie/8376959/" target="_blank" rel="noopener">Il Fatto Quotidiano — "Italia-Israele: 400 spedizioni militari" (06/05/2026)</a> <span class="source-domain">ilfattoquotidiano.it</span></li>
+          <li><a href="https://it.euronews.com/2025/10/30/francesca-albanese-accusa-63-paesi-di-complicita-nel-genocidio-a-gaza-ce-anche-litalia" target="_blank" rel="noopener">Euronews Italia — "Albanese accusa l'Italia"</a> <span class="source-domain">it.euronews.com</span></li>
+          <li><a href="https://www.lindipendente.online/2025/10/20/un-rapporto-fa-luce-sui-legami-tra-leonardo-spa-e-il-genocidio-israeliano-a-gaza/" target="_blank" rel="noopener">L'Indipendente — Rapporto Leonardo-Gaza</a> <span class="source-domain">lindipendente.online</span></li>
+          <li><a href="https://infodifesa.it/leonardo-e-lombra-di-gaza-cingolani-contrattacca-tra-accuse-onu-e-realpolitik-della-difesa/" target="_blank" rel="noopener">Infodifesa — Entrevista a Cingolani</a> <span class="source-domain">infodifesa.it</span></li>
+          <li><a href="https://laviniamarchetti.altervista.org/francesca-albanese-presenta-il-rapporto-onu-genocidio-di-gaza-un-crimine-collettivo-alla-camera-3-febbraio-2026/" target="_blank" rel="noopener">Albanese en la Cámara italiana (03/02/2026)</a> <span class="source-domain">laviniamarchetti.altervista.org</span></li>
+          <li><a href="https://es.wikipedia.org/wiki/Genocidio_palestino_en_Gaza" target="_blank" rel="noopener">Wikipedia ES — Genocidio palestino en Gaza (sección Italia)</a> <span class="source-domain">es.<a class="inline-link" href="https://es.wikipedia.org/" target="_blank" rel="noopener">wikipedia</a>.org</span></li>
         </ol>
       </div>
     </section>
@@ -1386,9 +1418,9 @@
       <div class="sources">
         <h4>Fuentes de esta sección</h4>
         <ol>
-          <li><a href="https://elpais.com/economia/2025-12-17/22-millones-de-euros-de-fondos-verdes-en-empresas-de-armas-israelies-la-guerra-como-inversion-sostenible.html" target="_blank">El País — "22 millones de euros de fondos 'verdes' en empresas de armas israelíes"</a> <span class="source-domain">elpais.com</span></li>
-          <li><a href="https://cuestionpublica.com/felicidades-tus-ahorros-siguen-creciendo-con-el-bombardeo-de-ninos-en-gaza/" target="_blank">Cuestión Pública — Lista de fondos</a> <span class="source-domain">cuestionpublica.com</span></li>
-          <li><a href="https://www.ciperchile.cl/2025/10/13/al-menos-us-34-millones-administrados-por-las-afp-terminaron-en-companias-acusadas-de-beneficiarse-con-la-tragedia-en-gaza/" target="_blank">CIPER Chile — Lista consolidada</a> <span class="source-domain"><a class="inline-link" href="https://www.ciperchile.cl/" target="_blank" rel="noopener">ciper</a>chile.cl</span></li>
+          <li><a href="https://elpais.com/economia/2025-12-17/22-millones-de-euros-de-fondos-verdes-en-empresas-de-armas-israelies-la-guerra-como-inversion-sostenible.html" target="_blank" rel="noopener">El País — "22 millones de euros de fondos 'verdes' en empresas de armas israelíes"</a> <span class="source-domain">elpais.com</span></li>
+          <li><a href="https://cuestionpublica.com/felicidades-tus-ahorros-siguen-creciendo-con-el-bombardeo-de-ninos-en-gaza/" target="_blank" rel="noopener">Cuestión Pública — Lista de fondos</a> <span class="source-domain">cuestionpublica.com</span></li>
+          <li><a href="https://www.ciperchile.cl/2025/10/13/al-menos-us-34-millones-administrados-por-las-afp-terminaron-en-companias-acusadas-de-beneficiarse-con-la-tragedia-en-gaza/" target="_blank" rel="noopener">CIPER Chile — Lista consolidada</a> <span class="source-domain"><a class="inline-link" href="https://www.ciperchile.cl/" target="_blank" rel="noopener">ciper</a>chile.cl</span></li>
         </ol>
       </div>
     </section>
@@ -1400,7 +1432,9 @@
 
       <h3>Mapa 1 — Colombia: dónde quedan las AFP</h3>
       <div class="flow">
-        <svg viewBox="0 0 600 700" xmlns="http://www.w3.org/2000/svg">
+        <svg viewBox="0 0 600 700" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="svg3-title svg3-desc">
+          <title id="svg3-title">Mapa de Colombia con las sedes de las AFP</title>
+          <desc id="svg3-desc">Mapa simplificado de Colombia con marcadores en Bogotá, Medellín, Cali y Barranquilla. Bogotá (Porvenir/Aval) conecta hacia Elbit Systems con $13.874 millones. El 48,8% del ahorro pensional ($257 billones) sale al exterior.</desc>
           <!-- Fondo -->
           <rect width="600" height="700" fill="#0a0a0a"/>
           <!-- Outline simplificado de Colombia -->
@@ -1437,7 +1471,9 @@
 
       <h3>Mapa 2 — Franja de Gaza: principales blancos de la ofensiva</h3>
       <div class="flow">
-        <svg viewBox="0 0 500 280" xmlns="http://www.w3.org/2000/svg">
+        <svg viewBox="0 0 500 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="svg4-title svg4-desc">
+          <title id="svg4-title">Franja de Gaza — principales blancos de la ofensiva</title>
+          <desc id="svg4-desc">Mapa esquemático de la Franja de Gaza dividido en tres zonas: Norte (Ciudad de Gaza, Beit Hanoun), Centro (Deir al-Balah, Nuseirat, Maghazi) y Sur (Khan Younis, Rafah). Anota los tipos de armamento usados: bombardeo aéreo con F-35 y JDAM, drones Hermes 900 de Elbit, munición de artillería de Leonardo, demolición terrestre con excavadoras D9 de Caterpillar, incursiones blindadas, y tiroteos con sistema Iron Fist (RADA/Leonardo). Egipto al sur, paso de Rafah cerrado.</desc>
           <rect width="500" height="280" fill="#0a0a0a"/>
           <!-- Mar Mediterráneo -->
           <rect width="500" height="40" fill="#1e3a5f"/>
@@ -1551,7 +1587,7 @@
           <div style="background: var(--bg-elev); border: 1px solid var(--border); border-radius: 6px; padding: 16px; text-align: center;">
             <img src="evidencia/prueba-01-sentencia-consejo-estado-1412-mesas.jpg" alt="Prueba 1 - Sentencia del Consejo de Estado con la cita '3.630 registros (1.412 mesas)' resaltada" style="max-width: 100%; height: auto; box-shadow: 0 4px 20px rgba(0,0,0,0.4);">
           </div>
-          <p style="margin-top: 12px; font-size: 0.85rem; color: var(--text-mute);"><strong>Fuentes de verificación:</strong> <a href="https://factual.afp.com/sites/default/files/2026-05/fallo-consejo-de-estado-colombia-sobre-software.pdf" target="_blank">PDF AFP Factual</a> · <a href="https://vlex.com.co/vid/704507997" target="_blank">VLex</a> · <a href="https://www.consejodeestado.gov.co/documentos/boletines/PDF/11001-03-28-000-2014-00117-00%20(1).pdf" target="_blank">Consejo de Estado</a></p>
+          <p style="margin-top: 12px; font-size: 0.85rem; color: var(--text-mute);"><strong>Fuentes de verificación:</strong> <a href="https://factual.afp.com/sites/default/files/2026-05/fallo-consejo-de-estado-colombia-sobre-software.pdf" target="_blank" rel="noopener">PDF AFP Factual</a> · <a href="https://vlex.com.co/vid/704507997" target="_blank" rel="noopener">VLex</a> · <a href="https://www.consejodeestado.gov.co/documentos/boletines/PDF/11001-03-28-000-2014-00117-00%20(1).pdf" target="_blank" rel="noopener">Consejo de Estado</a></p>
         </article>
 
         <article id="prueba-2">
@@ -1560,7 +1596,7 @@
           <div style="background: var(--bg-elev); border: 1px solid var(--border); border-radius: 6px; padding: 16px; text-align: center;">
             <img src="evidencia/prueba-02-cuestion-publica.jpg" alt="Prueba 2 - Cuestión Pública con cita sobre $17 billones" style="max-width: 100%; height: auto; box-shadow: 0 4px 20px rgba(0,0,0,0.4);">
           </div>
-          <p style="margin-top: 12px; font-size: 0.85rem; color: var(--text-mute);"><strong>Fuente:</strong> <a href="https://cuestionpublica.com/felicidades-tus-ahorros-siguen-creciendo-con-el-bombardeo-de-ninos-en-gaza/" target="_blank">cuestionpublica.com</a></p>
+          <p style="margin-top: 12px; font-size: 0.85rem; color: var(--text-mute);"><strong>Fuente:</strong> <a href="https://cuestionpublica.com/felicidades-tus-ahorros-siguen-creciendo-con-el-bombardeo-de-ninos-en-gaza/" target="_blank" rel="noopener">cuestionpublica.com</a></p>
         </article>
 
         <article id="prueba-3">
@@ -1569,7 +1605,7 @@
           <div style="background: var(--bg-elev); border: 1px solid var(--border); border-radius: 6px; padding: 16px; text-align: center;">
             <img src="evidencia/prueba-03-fondo-noruego.jpg" alt="Prueba 3 - Annual Report 2025 con exclusión de Caterpillar" style="max-width: 100%; height: auto; box-shadow: 0 4px 20px rgba(0,0,0,0.4);">
           </div>
-          <p style="margin-top: 12px; font-size: 0.85rem; color: var(--text-mute);"><strong>Fuente:</strong> <a href="https://www.regjeringen.no/en/documents/annual-report-2025/id3152102/?ch=5" target="_blank">regjeringen.no</a></p>
+          <p style="margin-top: 12px; font-size: 0.85rem; color: var(--text-mute);"><strong>Fuente:</strong> <a href="https://www.regjeringen.no/en/documents/annual-report-2025/id3152102/?ch=5" target="_blank" rel="noopener">regjeringen.no</a></p>
         </article>
 
         <article id="prueba-4">
@@ -1578,7 +1614,7 @@
           <div style="background: var(--bg-elev); border: 1px solid var(--border); border-radius: 6px; padding: 16px; text-align: center;">
             <img src="evidencia/prueba-04-albanese-63-estados.jpg" alt="Prueba 4 - Informe Albanese 63 estados" style="max-width: 100%; height: auto; box-shadow: 0 4px 20px rgba(0,0,0,0.4);">
           </div>
-          <p style="margin-top: 12px; font-size: 0.85rem; color: var(--text-mute);"><strong>Fuente:</strong> <a href="https://www.un.org/unispal/document/special-rapporteur-report-gaza-genocide-a-collective-crime-20oct25/" target="_blank">UN UNISPAL</a></p>
+          <p style="margin-top: 12px; font-size: 0.85rem; color: var(--text-mute);"><strong>Fuente:</strong> <a href="https://www.un.org/unispal/document/special-rapporteur-report-gaza-genocide-a-collective-crime-20oct25/" target="_blank" rel="noopener">UN UNISPAL</a></p>
         </article>
 
         <article id="prueba-5">
@@ -1587,7 +1623,7 @@
           <div style="background: var(--bg-elev); border: 1px solid var(--border); border-radius: 6px; padding: 16px; text-align: center;">
             <img src="evidencia/prueba-05-cerimedo-audiencia.jpg" alt="Prueba 5 - Audiencia Cerimedo 28/08/2026" style="max-width: 100%; height: auto; box-shadow: 0 4px 20px rgba(0,0,0,0.4);">
           </div>
-          <p style="margin-top: 12px; font-size: 0.85rem; color: var(--text-mute);"><strong>Fuente:</strong> <a href="https://www.infobae.com/america/america-latina/2026/08/29/fernando-cerimedo-declaro-ante-la-justicia-de-bolivia-y-dijo-que-gana-cerca-de-un-millon-de-dolares-por-mes/" target="_blank">Infobae</a></p>
+          <p style="margin-top: 12px; font-size: 0.85rem; color: var(--text-mute);"><strong>Fuente:</strong> <a href="https://www.infobae.com/america/america-latina/2026/08/29/fernando-cerimedo-declaro-ante-la-justicia-de-bolivia-y-dijo-que-gana-cerca-de-un-millon-de-dolares-por-mes/" target="_blank" rel="noopener">Infobae</a></p>
         </article>
 
         <article id="prueba-6">
@@ -1596,7 +1632,7 @@
           <div style="background: var(--bg-elev); border: 1px solid var(--border); border-radius: 6px; padding: 16px; text-align: center;">
             <img src="evidencia/prueba-06-petro-afp.jpg" alt="Prueba 6 - Petro textual AFP" style="max-width: 100%; height: auto; box-shadow: 0 4px 20px rgba(0,0,0,0.4);">
           </div>
-          <p style="margin-top: 12px; font-size: 0.85rem; color: var(--text-mute);"><strong>Fuente:</strong> <a href="https://www.semana.com/economia/articulo/iniciativa-polemica-el-gobierno-busca-repatriar-los-recursos-que-tienen-los-fondos-de-pensiones-en-el-exterior-y-la-rentabilidad/202555/" target="_blank">Revista Semana</a></p>
+          <p style="margin-top: 12px; font-size: 0.85rem; color: var(--text-mute);"><strong>Fuente:</strong> <a href="https://www.semana.com/economia/articulo/iniciativa-polemica-el-gobierno-busca-repatriar-los-recursos-que-tienen-los-fondos-de-pensiones-en-el-exterior-y-la-rentabilidad/202555/" target="_blank" rel="noopener">Revista Semana</a></p>
         </article>
 
         <article id="prueba-7">
@@ -1605,7 +1641,7 @@
           <div style="background: var(--bg-elev); border: 1px solid var(--border); border-radius: 6px; padding: 16px; text-align: center;">
             <img src="evidencia/prueba-07-stoltenberg.jpg" alt="Prueba 7 - Stoltenberg reverso noruego" style="max-width: 100%; height: auto; box-shadow: 0 4px 20px rgba(0,0,0,0.4);">
           </div>
-          <p style="margin-top: 12px; font-size: 0.85rem; color: var(--text-mute);"><strong>Fuentes:</strong> <a href="https://www.jns.org/israel-news/amid-us-pressure-norway-halts-sovereign-wealth-funds-boycott-of-israel" target="_blank">JNS</a> · <a href="https://forbes.es/economia/823981/noruega-suspende-las-desinversiones-eticas-de-su-fondo-soberano/" target="_blank">Forbes España</a> · <a href="https://www.cnbc.com/2025/09/04/white-house-hits-out-at-norway-wealth-fund-over-caterpillar-exit.html" target="_blank">CNBC</a></p>
+          <p style="margin-top: 12px; font-size: 0.85rem; color: var(--text-mute);"><strong>Fuentes:</strong> <a href="https://www.jns.org/israel-news/amid-us-pressure-norway-halts-sovereign-wealth-funds-boycott-of-israel" target="_blank" rel="noopener">JNS</a> · <a href="https://forbes.es/economia/823981/noruega-suspende-las-desinversiones-eticas-de-su-fondo-soberano/" target="_blank" rel="noopener">Forbes España</a> · <a href="https://www.cnbc.com/2025/09/04/white-house-hits-out-at-norway-wealth-fund-over-caterpillar-exit.html" target="_blank" rel="noopener">CNBC</a></p>
         </article>
 
         <article id="prueba-8">
@@ -1615,7 +1651,7 @@
             <img src="evidencia/prueba-08-auto-2-marzo-2018.jpg" alt="Prueba 8 - AUTO 2 marzo 2018 que niega anulación a Teresita García Romero" style="max-width: 100%; height: auto; box-shadow: 0 4px 20px rgba(0,0,0,0.4);">
           </div>
           <p style="margin-top: 12px; font-size: 0.85rem; color: var(--text-mute);"><strong>Por qué importa:</strong> la sentencia del 8 feb 2018 NO fue anulada. Sobrevivió a la petición de nulidad de la senadora afectada. Las curules devueltas al MIRA se mantuvieron.</p>
-          <p style="margin-top: 8px; font-size: 0.85rem; color: var(--text-mute);"><strong>Fuente:</strong> <a href="https://vlex.com.co/vid/auto-n-11001-03-852673468" target="_blank">VLex</a></p>
+          <p style="margin-top: 8px; font-size: 0.85rem; color: var(--text-mute);"><strong>Fuente:</strong> <a href="https://vlex.com.co/vid/auto-n-11001-03-852673468" target="_blank" rel="noopener">VLex</a></p>
         </article>
 
         <article id="prueba-9">
@@ -1625,7 +1661,7 @@
             <img src="evidencia/prueba-09-decreto-petro.jpg" alt="Prueba 9 - Decreto Petro repatriación AFP $100B" style="max-width: 100%; height: auto; box-shadow: 0 4px 20px rgba(0,0,0,0.4);">
           </div>
           <p style="margin-top: 12px; font-size: 0.85rem; color: var(--text-mute);"><strong>Cifras clave:</strong> ahorro administrado $527,3B; actual en exterior $257,1B (48,8%); repatriación proyectada al cierre del quinquenio ~$100B; <a class="inline-link" href="https://about.meta.com/" target="_blank" rel="noopener">meta</a> transitoria 35% en 3 años.</p>
-          <p style="margin-top: 8px; font-size: 0.85rem; color: var(--text-mute);"><strong>Fuentes:</strong> <a href="https://www.infobae.com/colombia/2026/01/21/gobierno-petro-defendio-nueva-regla-sobre-pensiones-y-dejo-claro-que-ahora-los-inversores-tienen-dos-alternativas-con-la-plata/" target="_blank">Infobae</a> · <a href="https://www.elespectador.com/economia/gobierno-avanza-en-plan-para-traer-ahorro-pensional-al-pais-esto-dice-borrador-de-decreto/" target="_blank">El Espectador</a> · <a href="https://razonpublica.com/mas-inversion-local-implica-mejores-pensiones-analisis-del-proyecto-limita-la-inversion-externa-los-fondos-pensiones/" target="_blank">Razón Pública</a></p>
+          <p style="margin-top: 8px; font-size: 0.85rem; color: var(--text-mute);"><strong>Fuentes:</strong> <a href="https://www.infobae.com/colombia/2026/01/21/gobierno-petro-defendio-nueva-regla-sobre-pensiones-y-dejo-claro-que-ahora-los-inversores-tienen-dos-alternativas-con-la-plata/" target="_blank" rel="noopener">Infobae</a> · <a href="https://www.elespectador.com/economia/gobierno-avanza-en-plan-para-traer-ahorro-pensional-al-pais-esto-dice-borrador-de-decreto/" target="_blank" rel="noopener">El Espectador</a> · <a href="https://razonpublica.com/mas-inversion-local-implica-mejores-pensiones-analisis-del-proyecto-limita-la-inversion-externa-los-fondos-pensiones/" target="_blank" rel="noopener">Razón Pública</a></p>
         </article>
 
         <article id="prueba-10">
@@ -1635,7 +1671,7 @@
             <img src="evidencia/prueba-10-resolucion-3006.jpg" alt="Prueba 10 - Resolución 3006/2014 anulada parcialmente por el Consejo de Estado" style="max-width: 100%; height: auto; box-shadow: 0 4px 20px rgba(0,0,0,0.4);">
           </div>
           <p style="margin-top: 12px; font-size: 0.85rem; color: var(--text-mute);"><strong>3 credenciales anuladas:</strong> Sofía Alejandra Gaviria Correa (curul 17, Partido Liberal), Teresita García Romero (curul 5, Opción Ciudadana), H.M.H.P. (curul 20, Centro Democrático). Reasignadas al Movimiento MIRA.</p>
-          <p style="margin-top: 8px; font-size: 0.85rem; color: var(--text-mute);"><strong>Fuente:</strong> <a href="https://vlex.com.co/vid/704507997" target="_blank">VLex — Sentencia</a> · <a href="https://razonpublica.com/la-registraduria-nacional-una-mina-de-oro/" target="_blank">Razón Pública</a></p>
+          <p style="margin-top: 8px; font-size: 0.85rem; color: var(--text-mute);"><strong>Fuente:</strong> <a href="https://vlex.com.co/vid/704507997" target="_blank" rel="noopener">VLex — Sentencia</a> · <a href="https://razonpublica.com/la-registraduria-nacional-una-mina-de-oro/" target="_blank" rel="noopener">Razón Pública</a></p>
         </article>
 
         <article id="prueba-11">
@@ -1645,7 +1681,7 @@
             <img src="evidencia/prueba-11-resolucion-12-2014.jpg" alt="Prueba 11 - Resolución 12/2014 Comisión Escrutadora Distrital de Bogotá anulada" style="max-width: 100%; height: auto; box-shadow: 0 4px 20px rgba(0,0,0,0.4);">
           </div>
           <p style="margin-top: 12px; font-size: 0.85rem; color: var(--text-mute);"><strong>Por qué importa:</strong> amplía el alcance de la irregularidad — no fue solo el software nacional; también hubo actos administrativos locales (escrutinios distritales) contrarios a derecho.</p>
-          <p style="margin-top: 8px; font-size: 0.85rem; color: var(--text-mute);"><strong>Fuente:</strong> <a href="https://vlex.com.co/vid/704507997" target="_blank">VLex</a></p>
+          <p style="margin-top: 8px; font-size: 0.85rem; color: var(--text-mute);"><strong>Fuente:</strong> <a href="https://vlex.com.co/vid/704507997" target="_blank" rel="noopener">VLex</a></p>
         </article>
 
         <article id="prueba-12">
@@ -1655,7 +1691,7 @@
             <img src="evidencia/prueba-12-ley-185-1990.jpg" alt="Prueba 12 - Ley 185/1990 Italia sobre exportación de armamento" style="max-width: 100%; height: auto; box-shadow: 0 4px 20px rgba(0,0,0,0.4);">
           </div>
           <p style="margin-top: 12px; font-size: 0.85rem; color: var(--text-mute);"><strong>Lo que el dossier italiano de BDS/ONG contradice:</strong> ~150 envíos de componentes aeroespaciales rastreados; <a class="inline-link" href="https://elbitsystems.com/" target="_blank" rel="noopener">Elbit Systems</a>, OTO 76/62 en corbetas Sa'ar 6, radar "Iron Fist", jet M-346 "Lavi". La causa penal contra Leonardo y el Estado italiano está abierta en la <a class="inline-link" href="https://www.icc-cpi.int/" target="_blank" rel="noopener">CPI</a>.</p>
-          <p style="margin-top: 8px; font-size: 0.85rem; color: var(--text-mute);"><strong>Fuentes:</strong> <a href="https://infodifesa.it/leonardo-e-lombra-di-gaza-cingolani-contrattaca-tra-accuse-onu-e-realpolitik-della-difesa/" target="_blank">Infodifesa</a> · <a href="https://www.lindipendente.online/2025/10/20/un-rapporto-fa-luce-sui-legami-tra-leonardo-spa-e-il-genocidio-israeliano-a-gaza/" target="_blank">L'Indipendente</a> · <a href="https://www.ilfattoquotidiano.it/2026/05/06/armi-italia-israele-spedizioni-militari-notizie/8376959/" target="_blank">Il Fatto Quotidiano</a></p>
+          <p style="margin-top: 8px; font-size: 0.85rem; color: var(--text-mute);"><strong>Fuentes:</strong> <a href="https://infodifesa.it/leonardo-e-lombra-di-gaza-cingolani-contrattaca-tra-accuse-onu-e-realpolitik-della-difesa/" target="_blank" rel="noopener">Infodifesa</a> · <a href="https://www.lindipendente.online/2025/10/20/un-rapporto-fa-luce-sui-legami-tra-leonardo-spa-e-il-genocidio-israeliano-a-gaza/" target="_blank" rel="noopener">L'Indipendente</a> · <a href="https://www.ilfattoquotidiano.it/2026/05/06/armi-italia-israele-spedizioni-militari-notizie/8376959/" target="_blank" rel="noopener">Il Fatto Quotidiano</a></p>
         </article>
 
         <article id="prueba-13">
@@ -1665,7 +1701,7 @@
             <img src="evidencia/prueba-13-cpaca-288.jpg" alt="Prueba 13 - Ley 1437/2011 CPACA art. 288 efectos de la sentencia electoral" style="max-width: 100%; height: auto; box-shadow: 0 4px 20px rgba(0,0,0,0.4);">
           </div>
           <p style="margin-top: 12px; font-size: 0.85rem; color: var(--text-mute);"><strong>Por qué importa:</strong> es el <strong>soporte legal</strong> que facultó al <a class="inline-link" href="https://www.consejodeestado.gov.co/" target="_blank" rel="noopener">Consejo de Estado</a> para cancelar las 3 credenciales y expedir las nuevas al MIRA. Sin este artículo, la sentencia no habría tenido efecto práctico.</p>
-          <p style="margin-top: 8px; font-size: 0.85rem; color: var(--text-mute);"><strong>Fuentes:</strong> <a href="https://vlex.com.co/vid/704507997" target="_blank">VLex</a> · <a href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=41249" target="_blank">Función Pública</a></p>
+          <p style="margin-top: 8px; font-size: 0.85rem; color: var(--text-mute);"><strong>Fuentes:</strong> <a href="https://vlex.com.co/vid/704507997" target="_blank" rel="noopener">VLex</a> · <a href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=41249" target="_blank" rel="noopener">Función Pública</a></p>
         </article>
 
         <article id="prueba-14">
@@ -1675,7 +1711,7 @@
             <img src="evidencia/prueba-14-ciper-chile.jpg" alt="Prueba 14 - CIPER Chile investigación AFP chilenas US$34,5 millones en armas" style="max-width: 100%; height: auto; box-shadow: 0 4px 20px rgba(0,0,0,0.4);">
           </div>
           <p style="margin-top: 12px; font-size: 0.85rem; color: var(--text-mute);"><strong>Empresas señaladas:</strong> <a class="inline-link" href="https://elbitsystems.com/" target="_blank" rel="noopener">Elbit Systems</a> (Israel), <a class="inline-link" href="https://www.lockheedmartin.com/" target="_blank" rel="noopener">Lockheed Martin</a> (EE.UU.), <a class="inline-link" href="https://www.leonardo.com/en" target="_blank" rel="noopener">Leonardo S.p.A.</a> (Italia), <a class="inline-link" href="https://www.palantir.com/" target="_blank" rel="noopener">Palantir</a> (EE.UU.), FANUC (Japón). <strong>Paralelo con Colombia:</strong> AFP colombianas administran ~USD 140.000M; <a class="inline-link" href="https://cuestionpublica.com/" target="_blank" rel="noopener">Cuestión Pública</a> halló $17B (~USD 4.300M) en 6 fondos específicos.</p>
-          <p style="margin-top: 8px; font-size: 0.85rem; color: var(--text-mute);"><strong>Fuente:</strong> <a href="https://www.ciperchile.cl/2025/10/13/al-menos-us-34-millones-administrados-por-las-afp-terminaron-en-companias-acusadas-de-beneficiarse-con-la-tragedia-en-gaza/" target="_blank">ciperchile.cl</a></p>
+          <p style="margin-top: 8px; font-size: 0.85rem; color: var(--text-mute);"><strong>Fuente:</strong> <a href="https://www.ciperchile.cl/2025/10/13/al-menos-us-34-millones-administrados-por-las-afp-terminaron-en-companias-acusadas-de-beneficiarse-con-la-tragedia-en-gaza/" target="_blank" rel="noopener">ciperchile.cl</a></p>
         </article>
 
         <article id="prueba-15">
@@ -1685,7 +1721,7 @@
             <img src="evidencia/prueba-15-razon-publica-thomas-greg.jpg" alt="Prueba 15 - Razón Pública sobre Thomas Greg contrato 2,75 billones" style="max-width: 100%; height: auto; box-shadow: 0 4px 20px rgba(0,0,0,0.4);">
           </div>
           <p style="margin-top: 12px; font-size: 0.85rem; color: var(--text-mute);"><strong>Corrección documentada (01/09/2026):</strong> la cifra "236.523 votos excluidos" no es textual de la sentencia; la cifra del fallo es <strong>13.919 votos</strong> (Razón Pública, <a class="inline-link" href="https://www.eltiempo.com/" target="_blank" rel="noopener">El Tiempo</a>). La expresión "responsabilidad probada de Thomas Greg" tampoco aparece en el fallo — el <a class="inline-link" href="https://www.consejodeestado.gov.co/" target="_blank" rel="noopener">Consejo de Estado</a> compulsó copias a la <a class="inline-link" href="https://www.fiscalia.gov.co/" target="_blank" rel="noopener">Fiscalía</a>, que no avanzó a condena penal. Ver <a href="#prueba-1">Prueba #1</a> y DOSIER_COMPLETO.md §13.3.</p>
-          <p style="margin-top: 8px; font-size: 0.85rem; color: var(--text-mute);"><strong>Fuentes:</strong> <a href="https://razonpublica.com/la-registraduria-nacional-una-mina-de-oro/" target="_blank">Razón Pública</a> · <a href="https://www.rtvcnoticias.com/politica/thomas-greg-sons-vuelve-encargarse-de-las-elecciones" target="_blank">RTVC Noticias</a> · <a href="https://vlex.com.co/vid/704507997" target="_blank">VLex</a></p>
+          <p style="margin-top: 8px; font-size: 0.85rem; color: var(--text-mute);"><strong>Fuentes:</strong> <a href="https://razonpublica.com/la-registraduria-nacional-una-mina-de-oro/" target="_blank" rel="noopener">Razón Pública</a> · <a href="https://www.rtvcnoticias.com/politica/thomas-greg-sons-vuelve-encargarse-de-las-elecciones" target="_blank" rel="noopener">RTVC Noticias</a> · <a href="https://vlex.com.co/vid/704507997" target="_blank" rel="noopener">VLex</a></p>
         </article>
 
       </div>
@@ -1738,12 +1774,12 @@
       <div class="sources">
         <h4>Fuentes de esta sección</h4>
         <ol>
-          <li><a href="https://www.bbc.com/mundo/articles/clyx45xkzzyo" target="_blank">BBC Mundo — Quién es Cerimedo</a> <span class="source-domain">bbc.com</span></li>
-          <li><a href="https://www.infobae.com/america/america-latina/2026/08/29/fernando-cerimedo-declaro-ante-la-justicia-de-bolivia-y-dijo-que-gana-cerca-de-un-millon-de-dolares-por-mes/" target="_blank">Infobae — Declaración completa de Cerimedo</a> <span class="source-domain"><a class="inline-link" href="https://www.infobae.com/" target="_blank" rel="noopener">infobae</a>.com</span></li>
-          <li><a href="https://tn.com.ar/politica/2026/08/28/cerimedo-declaro-ante-la-fiscalia-de-bolivia-admitio-que-asesoro-a-rodrigo-paz-y-evito-responder-sobre-su-rol-en-el-gobierno/" target="_blank">TN — Cerimedo asesoró a Rodrigo Paz</a> <span class="source-domain">tn.com.ar</span></li>
-          <li><a href="https://www.wsws.org/en/articles/2026/08/26/iljj-a26.html" target="_blank">WSWS — "MAGA's Man in LatAm"</a> <span class="source-domain">wsws.org</span></li>
-          <li><a href="https://www.lanacion.com.ar/politica/quien-es-fernando-cerimedo-el-exasesor-de-javier-milei-detenido-en-bolivia-nid18082026/" target="_blank">La Nación (AR) — Quién es Cerimedo</a> <span class="source-domain">lanacion.com.ar</span></li>
-          <li><a href="https://www.telesurenglish.net/petro-calls-for-un-complaint-over-far-right-driven-election-fraud-in-latam/" target="_blank">teleSUR English — Cerimedo en Colombia</a> <span class="source-domain">telesurenglish.net</span></li>
+          <li><a href="https://www.bbc.com/mundo/articles/clyx45xkzzyo" target="_blank" rel="noopener">BBC Mundo — Quién es Cerimedo</a> <span class="source-domain">bbc.com</span></li>
+          <li><a href="https://www.infobae.com/america/america-latina/2026/08/29/fernando-cerimedo-declaro-ante-la-justicia-de-bolivia-y-dijo-que-gana-cerca-de-un-millon-de-dolares-por-mes/" target="_blank" rel="noopener">Infobae — Declaración completa de Cerimedo</a> <span class="source-domain"><a class="inline-link" href="https://www.infobae.com/" target="_blank" rel="noopener">infobae</a>.com</span></li>
+          <li><a href="https://tn.com.ar/politica/2026/08/28/cerimedo-declaro-ante-la-fiscalia-de-bolivia-admitio-que-asesoro-a-rodrigo-paz-y-evito-responder-sobre-su-rol-en-el-gobierno/" target="_blank" rel="noopener">TN — Cerimedo asesoró a Rodrigo Paz</a> <span class="source-domain">tn.com.ar</span></li>
+          <li><a href="https://www.wsws.org/en/articles/2026/08/26/iljj-a26.html" target="_blank" rel="noopener">WSWS — "MAGA's Man in LatAm"</a> <span class="source-domain">wsws.org</span></li>
+          <li><a href="https://www.lanacion.com.ar/politica/quien-es-fernando-cerimedo-el-exasesor-de-javier-milei-detenido-en-bolivia-nid18082026/" target="_blank" rel="noopener">La Nación (AR) — Quién es Cerimedo</a> <span class="source-domain">lanacion.com.ar</span></li>
+          <li><a href="https://www.telesurenglish.net/petro-calls-for-un-complaint-over-far-right-driven-election-fraud-in-latam/" target="_blank" rel="noopener">teleSUR English — Cerimedo en Colombia</a> <span class="source-domain">telesurenglish.net</span></li>
         </ol>
       </div>
     </section>
@@ -1815,10 +1851,10 @@
       <div class="sources">
         <h4>Fuentes de esta sección</h4>
         <ol>
-          <li><a href="https://www.lasillavacia.com/silla-nacional/la-conexion-de-abelardo-con-exsocio-de-cerimedo-y-la-nueva-derecha-internacional/" target="_blank">La Silla Vacía — "La conexión de Abelardo con exsocio de Cerimedo"</a> <span class="source-domain">lasillavacia.com</span></li>
-          <li><a href="https://confidencialnoticias.com/opinion/de-la-espriella-un-presidente-fabricado-por-la-ultraderecha-internacional-alejandro-toro/" target="_blank">Confidencial Noticias — "Un presidente fabricado por la ultraderecha internacional"</a> <span class="source-domain">confidencialnoticias.com</span></li>
-          <li><a href="https://www.diario-red.com/articulo/medios/derecha-diario-desembarco-javier-negre-america-latina-mano-milei/20260819180814074756.html" target="_blank">Diario Red — "Desembarco de Javier Negre en América Latina"</a> <span class="source-domain">diario-red.com</span></li>
-          <li><a href="https://es.wikipedia.org/wiki/La_Derecha_Diario" target="_blank">Wikipedia ES — La Derecha Diario</a> <span class="source-domain">es.<a class="inline-link" href="https://es.wikipedia.org/" target="_blank" rel="noopener">wikipedia</a>.org</span></li>
+          <li><a href="https://www.lasillavacia.com/silla-nacional/la-conexion-de-abelardo-con-exsocio-de-cerimedo-y-la-nueva-derecha-internacional/" target="_blank" rel="noopener">La Silla Vacía — "La conexión de Abelardo con exsocio de Cerimedo"</a> <span class="source-domain">lasillavacia.com</span></li>
+          <li><a href="https://confidencialnoticias.com/opinion/de-la-espriella-un-presidente-fabricado-por-la-ultraderecha-internacional-alejandro-toro/" target="_blank" rel="noopener">Confidencial Noticias — "Un presidente fabricado por la ultraderecha internacional"</a> <span class="source-domain">confidencialnoticias.com</span></li>
+          <li><a href="https://www.diario-red.com/articulo/medios/derecha-diario-desembarco-javier-negre-america-latina-mano-milei/20260819180814074756.html" target="_blank" rel="noopener">Diario Red — "Desembarco de Javier Negre en América Latina"</a> <span class="source-domain">diario-red.com</span></li>
+          <li><a href="https://es.wikipedia.org/wiki/La_Derecha_Diario" target="_blank" rel="noopener">Wikipedia ES — La Derecha Diario</a> <span class="source-domain">es.<a class="inline-link" href="https://es.wikipedia.org/" target="_blank" rel="noopener">wikipedia</a>.org</span></li>
         </ol>
       </div>
     </section>
@@ -1878,7 +1914,7 @@
       </div>
 
       <h3>📸 Pantallazo de la cita (también ver <a href="#pruebas">Prueba #1</a> en galería)</h3>
-      <p style="color: var(--text-soft); font-size: 0.9rem; margin-bottom: 12px;">Reproducción visual del texto literal de la sentencia con la cita <strong>"3.630 registros (1.412 mesas)"</strong> resaltada. Elaborada a partir de la transcripción de CNN en Español que cita textualmente al fallo. El PDF original completo está disponible en <a href="https://factual.afp.com/sites/default/files/2026-05/fallo-consejo-de-estado-colombia-sobre-software.pdf" target="_blank">AFP Factual</a> y en <a href="https://vlex.com.co/vid/704507997" target="_blank">VLex</a>. La pieza completa con 14 pruebas adicionales está en la <a href="#pruebas">galería 06.6</a>.</p>
+      <p style="color: var(--text-soft); font-size: 0.9rem; margin-bottom: 12px;">Reproducción visual del texto literal de la sentencia con la cita <strong>"3.630 registros (1.412 mesas)"</strong> resaltada. Elaborada a partir de la transcripción de CNN en Español que cita textualmente al fallo. El PDF original completo está disponible en <a href="https://factual.afp.com/sites/default/files/2026-05/fallo-consejo-de-estado-colombia-sobre-software.pdf" target="_blank" rel="noopener">AFP Factual</a> y en <a href="https://vlex.com.co/vid/704507997" target="_blank" rel="noopener">VLex</a>. La pieza completa con 14 pruebas adicionales está en la <a href="#pruebas">galería 06.6</a>.</p>
       <div style="background: var(--bg-elev); border: 1px solid var(--border); border-radius: 6px; padding: 16px; margin: 20px 0; text-align: center;">
         <img src="evidencia/prueba-01-sentencia-consejo-estado-1412-mesas.jpg" alt="Pantallazo de la sentencia del Consejo de Estado con la cita '3.630 registros (1.412 mesas)' resaltada" style="max-width: 100%; height: auto; box-shadow: 0 4px 20px rgba(0,0,0,0.4);">
         <p style="margin-top: 12px; font-size: 0.8rem; color: var(--text-mute);">↑ Click derecho → "Guardar imagen como..." para usar en el video. La cita textual resaltada en amarillo es la única referencia documentada en el fallo.</p>
@@ -1923,14 +1959,14 @@
       <div class="sources">
         <h4>Fuentes de esta sección</h4>
         <ol>
-          <li><a href="https://www.rtvcnoticias.com/politica/thomas-greg-sons-vuelve-encargarse-de-las-elecciones" target="_blank">RTVC Noticias — Thomas Greg &amp; Sons vuelve a elecciones</a> <span class="source-domain"><a class="inline-link" href="https://www.rtvcnoticias.com/" target="_blank" rel="noopener">rtvc</a>noticias.com</span></li>
-          <li><a href="https://www.consejodeestado.gov.co/documentos/boletines/PDF/11001-03-28-000-2014-00117-00%20(1).pdf" target="_blank">Consejo de Estado — PDF sentencia 11001-03-28-000-2014-00117-00</a> <span class="source-domain">consejodeestado.gov.co</span></li>
-          <li><a href="https://www.lasillavacia.com/detector-de-mentiras/detector-petro-insiste-en-narrativa-de-fraude-electoral-sin-sustento/" target="_blank">La Silla Vacía — Detector: Petro insiste en narrativa de fraude sin sustento</a> <span class="source-domain">lasillavacia.com</span></li>
-          <li><a href="https://www.elespectador.com/judicial/el-fallo-que-el-presidente-petro-busca-usar-para-sustentar-denuncias-sobre-fraude-electoral/" target="_blank">El Espectador — "El fallo que Petro busca usar"</a> <span class="source-domain">elespectador.com</span></li>
-          <li><a href="https://www.contexto.info/fact-checking-al-hilo-de-gustavo-petro-sobre-el-supuesto-fraude-electoral-en-colombia/" target="_blank">Contexto.info — Fact-check al hilo de Petro</a> <span class="source-domain">contexto.info</span></li>
-          <li><a href="https://www.elcolombiano.com/colombia/factcheck-las-afirmaciones-falsas-e-imprecisas-de-petro-sobre-el-software-electoral-DL33837646" target="_blank">El Colombiano — Factcheck afirmaciones de Petro</a> <span class="source-domain">elcolombiano.com</span></li>
-          <li><a href="https://corrupcionaldia.com/los-exconvictos-que-controlan-los-pasaportes-y-las-elecciones/" target="_blank">Corrupción al Día — Hermanos Bautista</a> <span class="source-domain">corrupcionaldia.com</span></li>
-          <li><a href="https://www.telesurtv.net/petro-israel-software-electoral-colombia/" target="_blank">teleSUR — "Petro apunta a Israel en denuncia sobre software"</a> <span class="source-domain">telesurtv.net</span></li>
+          <li><a href="https://www.rtvcnoticias.com/politica/thomas-greg-sons-vuelve-encargarse-de-las-elecciones" target="_blank" rel="noopener">RTVC Noticias — Thomas Greg &amp; Sons vuelve a elecciones</a> <span class="source-domain"><a class="inline-link" href="https://www.rtvcnoticias.com/" target="_blank" rel="noopener">rtvc</a>noticias.com</span></li>
+          <li><a href="https://www.consejodeestado.gov.co/documentos/boletines/PDF/11001-03-28-000-2014-00117-00%20(1).pdf" target="_blank" rel="noopener">Consejo de Estado — PDF sentencia 11001-03-28-000-2014-00117-00</a> <span class="source-domain">consejodeestado.gov.co</span></li>
+          <li><a href="https://www.lasillavacia.com/detector-de-mentiras/detector-petro-insiste-en-narrativa-de-fraude-electoral-sin-sustento/" target="_blank" rel="noopener">La Silla Vacía — Detector: Petro insiste en narrativa de fraude sin sustento</a> <span class="source-domain">lasillavacia.com</span></li>
+          <li><a href="https://www.elespectador.com/judicial/el-fallo-que-el-presidente-petro-busca-usar-para-sustentar-denuncias-sobre-fraude-electoral/" target="_blank" rel="noopener">El Espectador — "El fallo que Petro busca usar"</a> <span class="source-domain">elespectador.com</span></li>
+          <li><a href="https://www.contexto.info/fact-checking-al-hilo-de-gustavo-petro-sobre-el-supuesto-fraude-electoral-en-colombia/" target="_blank" rel="noopener">Contexto.info — Fact-check al hilo de Petro</a> <span class="source-domain">contexto.info</span></li>
+          <li><a href="https://www.elcolombiano.com/colombia/factcheck-las-afirmaciones-falsas-e-imprecisas-de-petro-sobre-el-software-electoral-DL33837646" target="_blank" rel="noopener">El Colombiano — Factcheck afirmaciones de Petro</a> <span class="source-domain">elcolombiano.com</span></li>
+          <li><a href="https://corrupcionaldia.com/los-exconvictos-que-controlan-los-pasaportes-y-las-elecciones/" target="_blank" rel="noopener">Corrupción al Día — Hermanos Bautista</a> <span class="source-domain">corrupcionaldia.com</span></li>
+          <li><a href="https://www.telesurtv.net/petro-israel-software-electoral-colombia/" target="_blank" rel="noopener">teleSUR — "Petro apunta a Israel en denuncia sobre software"</a> <span class="source-domain">telesurtv.net</span></li>
         </ol>
       </div>
     </section>
@@ -1960,18 +1996,23 @@
         Petro denunció fraude en múltiples ocasiones. La <strong><a class="inline-link" href="https://www.cne.gov.co/" target="_blank" rel="noopener">CNE</a></strong> (<a class="inline-link" href="https://www.cne.gov.co/" target="_blank" rel="noopener">Consejo Nacional Electoral</a>) certificó el resultado; la <strong><a class="inline-link" href="https://www.registraduria.gov.co/" target="_blank" rel="noopener">Registraduría</a></strong> defendió la legalidad; <strong>Cepeda aceptó la derrota en su momento</strong>. <a class="inline-link" href="https://colombiacheck.com/" target="_blank" rel="noopener">ColombiaCheck</a> verificó como <strong>falso</strong> un video que aseguraba que la elección se había anulado.
       </div>
 
+      <h3>Denuncia de Petro ante la <a class="inline-link" href="https://www.icc-cpi.int/" target="_blank" rel="noopener">CPI</a> contra De la Espriella (01/09/2026)</h3>
+      <div class="callout">
+        El 1 de septiembre de 2026, <a class="inline-link" href="https://es.wikipedia.org/wiki/Gustavo_Petro" target="_blank" rel="noopener">Gustavo Petro</a> reveló que <strong>antes de dejar la Presidencia radicó una denuncia en la <a class="inline-link" href="https://www.icc-cpi.int/" target="_blank" rel="noopener">Corte Penal Internacional</a> contra <a class="inline-link" href="https://es.wikipedia.org/wiki/Abelardo_de_la_Espriella" target="_blank" rel="noopener">Abelardo de la Espriella</a></strong>. La denuncia se sustenta en interceptaciones judiciales que, según Petro, prueban un presunto pacto entre De la Espriella y los hermanos <a class="inline-link" href="https://www.thomasgreg.com/" target="_blank" rel="noopener">Bautista</a> (Thomas Greg &amp; Sons) para manipular el software electoral. <strong>Fuente:</strong> <a class="inline-link" href="https://www.prensa-latina.cu/2026/09/01/colombia-petro-interpuso-denuncia-contra-de-la-espriella-ante-cpi/" target="_blank" rel="noopener">Prensa Latina, 01/09/2026</a>.
+      </div>
+
       <h3>La cobertura de <a class="inline-link" href="https://www.elespectador.com/" target="_blank" rel="noopener">El Espectador</a> el día de la elección</h3>
       <p>El 21 de junio de 2026, El Espectador hizo una transmisión especial de 8+ horas con <strong>Juan Carlos Rincón (<a class="inline-link" href="https://www.youtube.com/@LaPulla" target="_blank" rel="noopener">La Pulla</a>)</strong> entre los panelistas invitados.</p>
 
       <div class="sources">
         <h4>Fuentes de esta sección</h4>
         <ol>
-          <li><a href="https://www.eluniversal.com.co/politica/2026/08/07/el-mapa-de-la-victoria-de-abelardo-de-la-espriella/" target="_blank">El Universal — Mapa de la victoria</a> <span class="source-domain">eluniversal.com.co</span></li>
-          <li><a href="https://www.infobae.com/colombia/2026/08/07/abelardo-de-la-espriella-asume-oficialmente-como-nuevo-presidente-de-colombia-esta-es-su-historia/" target="_blank">Infobae — De la Espriella asume</a> <span class="source-domain"><a class="inline-link" href="https://www.infobae.com/" target="_blank" rel="noopener">infobae</a>.com</span></li>
-          <li><a href="https://www.pulzo.com/amp/nacion/abelardo-de-la-espriella-asume-la-presidencia-de-colombia-2026-2030-resultados-y-retos-PP5268703A" target="_blank">Pulzo — Resultados completos</a> <span class="source-domain">pulzo.com</span></li>
-          <li><a href="https://www.cronista.com/colombia/actualidad-co/petro-volvio-a-denunciar-fraude-electoral-y-dijo-que-el-escrutinio-que-dio-ganador-a-de-la-espriella-estuvo-marcado-por-la-oscuridad-en-colombia/" target="_blank">El Cronista — Petro denuncia "oscuridad"</a> <span class="source-domain">cronista.com</span></li>
-          <li><a href="https://colombiacheck.com/chequeos/es-falso-que-abelardo-de-la-espriella-no-pueda-posesionarse-el-7-de-agosto" target="_blank">ColombiaCheck — Falso: anulación de elección</a> <span class="source-domain"><a class="inline-link" href="https://colombiacheck.com/" target="_blank" rel="noopener">colombiacheck</a>.com</span></li>
-          <li><a href="https://www.youtube.com/watch?v=BFhzXRvB3F4" target="_blank">El Espectador — Cobertura electoral 21/06/2026 (YouTube)</a> <span class="source-domain">youtube.com</span></li>
+          <li><a href="https://www.eluniversal.com.co/politica/2026/08/07/el-mapa-de-la-victoria-de-abelardo-de-la-espriella/" target="_blank" rel="noopener">El Universal — Mapa de la victoria</a> <span class="source-domain">eluniversal.com.co</span></li>
+          <li><a href="https://www.infobae.com/colombia/2026/08/07/abelardo-de-la-espriella-asume-oficialmente-como-nuevo-presidente-de-colombia-esta-es-su-historia/" target="_blank" rel="noopener">Infobae — De la Espriella asume</a> <span class="source-domain"><a class="inline-link" href="https://www.infobae.com/" target="_blank" rel="noopener">infobae</a>.com</span></li>
+          <li><a href="https://www.pulzo.com/amp/nacion/abelardo-de-la-espriella-asume-la-presidencia-de-colombia-2026-2030-resultados-y-retos-PP5268703A" target="_blank" rel="noopener">Pulzo — Resultados completos</a> <span class="source-domain">pulzo.com</span></li>
+          <li><a href="https://www.cronista.com/colombia/actualidad-co/petro-volvio-a-denunciar-fraude-electoral-y-dijo-que-el-escrutinio-que-dio-ganador-a-de-la-espriella-estuvo-marcado-por-la-oscuridad-en-colombia/" target="_blank" rel="noopener">El Cronista — Petro denuncia "oscuridad"</a> <span class="source-domain">cronista.com</span></li>
+          <li><a href="https://colombiacheck.com/chequeos/es-falso-que-abelardo-de-la-espriella-no-pueda-posesionarse-el-7-de-agosto" target="_blank" rel="noopener">ColombiaCheck — Falso: anulación de elección</a> <span class="source-domain"><a class="inline-link" href="https://colombiacheck.com/" target="_blank" rel="noopener">colombiacheck</a>.com</span></li>
+          <li><a href="https://www.youtube.com/watch?v=BFhzXRvB3F4" target="_blank" rel="noopener">El Espectador — Cobertura electoral 21/06/2026 (YouTube)</a> <span class="source-domain">youtube.com</span></li>
         </ol>
       </div>
     </section>
@@ -2030,11 +2071,11 @@
       <div class="sources">
         <h4>Fuentes de esta sección</h4>
         <ol>
-          <li><a href="https://revistaraya.com/embajadas-influencers-y-propaganda-la-ofensiva-informativa-de-washington-en-america-latina.html" target="_blank">Revista Raya — "Embajadas, influencers y propaganda: la ofensiva informativa de Washington"</a> <span class="source-domain">revista<a class="inline-link" href="https://revistaraya.com/" target="_blank" rel="noopener">raya</a>.com</span></li>
-          <li><a href="https://www.semana.com/confidenciales/articulo/juanita-leon-reconoce-que-la-silla-vacia-perdio-el-40-por-ciento-de-sus-ingresos/202526/" target="_blank">Semana — "Juanita León reconoce que La Silla Vacía perdió el 40% de sus ingresos"</a> <span class="source-domain"><a class="inline-link" href="https://www.semana.com/" target="_blank" rel="noopener">semana</a>.com</span></li>
-          <li><a href="https://www.lasillavacia.com/opinion/solicitud-publica-de-rectificacion-a-la-campana-de-la-espriella/" target="_blank">La Silla Vacía — Rectificación a la campaña De la Espriella</a> <span class="source-domain">lasillavacia.com</span></li>
-          <li><a href="https://mediabiasfactcheck.com/colombiacheck-bias-and-credibility/" target="_blank">Media Bias/Fact Check — ColombiaCheck</a> <span class="source-domain">mediabiasfactcheck.com</span></li>
-          <li><a href="https://ecuadorchequea.com/ifcn-otorga-750000-a-25-verificadores-de-datos-para-construir-sostenibilidad-financiera/" target="_blank">IFCN / Poynter — SUSTAIN 2025 grants</a> <span class="source-domain">ecuadorchequea.com</span></li>
+          <li><a href="https://revistaraya.com/embajadas-influencers-y-propaganda-la-ofensiva-informativa-de-washington-en-america-latina.html" target="_blank" rel="noopener">Revista Raya — "Embajadas, influencers y propaganda: la ofensiva informativa de Washington"</a> <span class="source-domain">revista<a class="inline-link" href="https://revistaraya.com/" target="_blank" rel="noopener">raya</a>.com</span></li>
+          <li><a href="https://www.semana.com/confidenciales/articulo/juanita-leon-reconoce-que-la-silla-vacia-perdio-el-40-por-ciento-de-sus-ingresos/202526/" target="_blank" rel="noopener">Semana — "Juanita León reconoce que La Silla Vacía perdió el 40% de sus ingresos"</a> <span class="source-domain"><a class="inline-link" href="https://www.semana.com/" target="_blank" rel="noopener">semana</a>.com</span></li>
+          <li><a href="https://www.lasillavacia.com/opinion/solicitud-publica-de-rectificacion-a-la-campana-de-la-espriella/" target="_blank" rel="noopener">La Silla Vacía — Rectificación a la campaña De la Espriella</a> <span class="source-domain">lasillavacia.com</span></li>
+          <li><a href="https://mediabiasfactcheck.com/colombiacheck-bias-and-credibility/" target="_blank" rel="noopener">Media Bias/Fact Check — ColombiaCheck</a> <span class="source-domain">mediabiasfactcheck.com</span></li>
+          <li><a href="https://ecuadorchequea.com/ifcn-otorga-750000-a-25-verificadores-de-datos-para-construir-sostenibilidad-financiera/" target="_blank" rel="noopener">IFCN / Poynter — SUSTAIN 2025 grants</a> <span class="source-domain">ecuadorchequea.com</span></li>
         </ol>
       </div>
     </section>
@@ -2090,7 +2131,7 @@
   <p><strong>Investigación personal e independiente</strong> · 01 de septiembre de 2026</p>
   <p>Material protegido por el principio de presunción de inocencia. Toda afirmación que implique responsabilidad penal, civil o moral usa "presuntamente" o cita textual.</p>
   <p>Fuentes: 50+ artículos periodísticos de <a class="inline-link" href="https://cuestionpublica.com/" target="_blank" rel="noopener">Cuestión Pública</a>, <a class="inline-link" href="https://www.lasillavacia.com/" target="_blank" rel="noopener">La Silla Vacía</a>, <a class="inline-link" href="https://colombiacheck.com/" target="_blank" rel="noopener">ColombiaCheck</a>, <a class="inline-link" href="https://www.infobae.com/" target="_blank" rel="noopener">Infobae</a>, <a class="inline-link" href="https://www.elespectador.com/" target="_blank" rel="noopener">El Espectador</a>, El País, BBC, La Nación, Infobae, TeleSUR, <a class="inline-link" href="https://www.ciperchile.cl/" target="_blank" rel="noopener">CIPER</a> Chile, La Silla Vacía, <a class="inline-link" href="https://es.wikipedia.org/" target="_blank" rel="noopener">Wikipedia</a>, <a class="inline-link" href="https://www.un.org/" target="_blank" rel="noopener">ONU</a>/UNISPAL, Norwegian Government.</p>
-  <p style="margin-top: 12px; font-size: 0.8rem;">Última actualización: 01/09/2026</p>
+  <p style="margin-top: 12px; font-size: 0.8rem;">Última actualización: 06/09/2026</p>
 </footer>
 
 <script>
