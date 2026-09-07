@@ -14,7 +14,8 @@ Investigación periodística independiente sobre la cadena de dinero colombiano 
 
 ## 🎯 ¿Qué hay aquí?
 
-- **`index.html`** (172 KB) — Dashboard interactivo público. **Este es el entregable principal.** Cualquier persona puede abrirlo sin instalar nada.
+- **`index.html`** (~46 KB) — Portada/landing de la investigación. Es la entrada pública: hero, cifras animadas, narrativa en 4 actos, evidencia destacada, CTA al dashboard. Cualquier persona puede abrirlo sin instalar nada.
+- **`dashboard.html`** (~175 KB) — Dashboard interactivo completo. **Este es el entregable principal de la investigación.** 14 secciones (resumen ejecutivo, La Pulla, pensiones→Gaza, precedente noruego, Albanese, caso Italia, empresas beneficiarias, pruebas, Cerimedo, Negre, Thomas Greg, elecciones 2026, financiamiento de medios, metodología).
 - **`DOSIER_COMPLETO.md`** (62 KB) — Dosier consolidado con todas las fuentes citadas.
 - **`evidencia/`** — 15 pruebas visuales (JPG + HTML editable) con citas textuales resaltadas.
 - **`tools/`** — Scripts de auditoría automatizada (link checker, grammar checker, generador de inline-links).
