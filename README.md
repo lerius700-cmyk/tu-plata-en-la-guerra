@@ -59,12 +59,13 @@ Cada sección narrativa del cuerpo tiene su visual propio, además de tablas y s
 
 ## 🚀 Deploy
 
-Para publicar la página, sigue [`DEPLOY.md`](DEPLOY.md). En resumen:
+El sitio está actualmente publicado en `https://2q5a5sdg8o2sn.space.minimax.io` vía `website_deploy` (re-deploys in-place con el `node_id` original — las URLs se mantienen estables entre iteraciones).
 
+Para auto-hospedaje futuro vía GitHub Pages, ver [`DEPLOY.md`](DEPLOY.md):
 1. Crea un repo público en GitHub
 2. Conecta y haz push
 3. Activa GitHub Pages (Settings → Pages → `main` branch + `/ (root)`)
-4. Tu URL pública: `https://lerius700-cmyk.github.io/tu-plata-en-la-guerra/`
+4. Tu URL pública: `https://<tu-usuario>.github.io/tu-plata-en-la-guerra/`
 
 ## 📂 Estructura completa
 
