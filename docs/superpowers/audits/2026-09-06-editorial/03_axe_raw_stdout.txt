@@ -1,0 +1,8 @@
+npm notice run tu-plata-en-la-guerra-audit@1.0.0 npx
+npm notice run axe D:\AI\Investigaciones\Periodismo politico-economico\index.html --save D:\AI\Investigaciones\Periodismo politico-economico\docs\superpowers\audits\2026-09-06-editorial\03_axe_raw.json --exit
+[1mRunning axe-core 4.13.0 in chrome-headless[22m
+[31m[1mError: Error: spawn D:\AI\Investigaciones\Periodismo politico-economico\node_modules\chromedriver\lib\chromedriver\chromedriver.exe ENOENT
+    at D:\AI\Investigaciones\Periodismo politico-economico\node_modules\selenium-webdriver\remote\index.js:256:70
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[22m[39m
+Please report the problem to: [4m[34mhttps://github.com/dequelabs/axe-core-npm/issues/[39m[24m
+
