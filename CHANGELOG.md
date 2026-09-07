@@ -2,6 +2,36 @@
 
 Todas las versiones notables de esta investigación se documentan aquí.
 
+## [v1.1] — 2026-09-07
+
+### Lista completa de los 63 estados de Albanese (sección 04 expandida)
+
+Cierra uno de los puntos flojos identificados en el brainstorm inicial: la v1.0 listaba "63 estados" pero solo los top 5. Esta versión agrega **4 bloques de detalle** sin perder la honestidad sobre lo que no pudimos verificar individualmente.
+
+- **Bloque A — 21 estados con transferencia de armas o componentes**
+  - 19 proveedores de componentes F-35 (Australia, Bélgica, Canadá, etc.)
+  - 2 estados adicionales con transferencias directas (Francia, Serbia)
+  - Cada uno con citation clickeable a la fuente
+
+- **Bloque B — 11 estados con aumento de comercio con Israel** (Económica)
+  - Tabla con cifras exactas en USD (Alemania +US$836M, UAE +US$237M, etc.)
+  - Extraído de la tabla anexa del informe A/80/492
+
+- **Bloque C — 5 estados árabes con normalización** (Diplomática + Económica)
+  - Acuerdos de Abraham + Tratados de larga data
+  - UAE, Bahréin, Marruecos, Egipto, Jordania
+
+- **Bloque D — Disclosure honesto sobre los ~33 estados restantes**
+  - 18 estados enviaron respuesta formal al informe (sección XII, p. 18-22)
+  - Remisión al informe original para los no cubiertos individualmente
+
+**Estadísticas v1.1**:
+- 269KB cuerpo (vs 252KB en v1.0)
+- **148 citations** (vs 125 en v1.0, +23 nuevas)
+- Sección 04: 460 líneas (vs 190 en v1.0, 2.4x)
+
+---
+
 ## [v1.0] — 2026-09-07
 
 ### Primera publicación pública
