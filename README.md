@@ -1,12 +1,14 @@
 # Tu plata en la guerra, tu opinión en venta
 
-> ### 📖 **LEE LA INVESTIGACIÓN AQUÍ:** [https://lerius700-cmyk.github.io/tu-plata-en-la-guerra/](https://lerius700-cmyk.github.io/tu-plata-en-la-guerra/)
+> ### 📖 **LEE LA INVESTIGACIÓN AQUÍ:** [https://2q5a5sdg8o2sn.space.minimax.io](https://2q5a5sdg8o2sn.space.minimax.io)
 >
-> *(Reemplaza `TU-USER` por tu nombre de usuario de GitHub una vez deployed)*
+> - Portada: `/` — 5 stats animadas, panel "Verificable en 30 segundos", narrativa de 4 actos.
+> - Investigación completa: `/investigacion.html` — 14 secciones, **125 citations** clickeables, 10 diagramas SVG, mini-TOC, botón volver arriba.
+> - Vista densa: `/dashboard.html` — versión imprimible/archivo, conservada como referencia.
 
 Investigación periodística independiente sobre la cadena de dinero colombiano que financia (presuntamente) la guerra en Gaza, la red de medios que la cubre, y el ecosistema digital que moldea la opinión pública colombiana.
 
-**Estado del proyecto:** Dosier de fuentes verificadas + dashboard interactivo público.
+**Estado del proyecto:** 3 páginas web autocontenidas + dosier de fuentes + 15 pruebas documentales. Cada afirmación es clickeable y lleva a su fuente original.
 
 **Disclaimer:** Toda la información contenida en este repositorio proviene de fuentes públicas y verificables citadas en cada sección. Se utiliza el término "presuntamente" en todas las afirmaciones que implican responsabilidad penal o civil de personas naturales o jurídicas, según el principio de presunción de inocencia y para minimizar riesgo de demandas. Este material está en desarrollo y se actualizará con nuevas fuentes.
 
@@ -14,21 +16,56 @@ Investigación periodística independiente sobre la cadena de dinero colombiano 
 
 ## 🎯 ¿Qué hay aquí?
 
-- **`index.html`** (172 KB) — Dashboard interactivo público. **Este es el entregable principal.** Cualquier persona puede abrirlo sin instalar nada.
+- **`index.html`** (~51 KB) — Portada/landing de la investigación. Es la entrada pública: hero, 7 stat cards animadas, **panel "Verificable en 30 segundos"** (5 cards linkeables a las fuentes más fuertes), narrativa en 4 actos, evidencia destacada, CTA al cuerpo.
+- **`investigacion.html`** (~247 KB) — **El entregable principal de la investigación.** 14 secciones en orden narrativo, 125 citations clickeables, 10 diagramas SVG, mini-TOC navegable, botón flotante "↑ Volver arriba", bibliografía maestra autogenerada, tabla de tiempo maestra autogenerada.
+- **`dashboard.html`** (~175 KB) — Vista densa imprimible / archivo histórico. Conservada como referencia, sin iterar más.
 - **`DOSIER_COMPLETO.md`** (62 KB) — Dosier consolidado con todas las fuentes citadas.
 - **`evidencia/`** — 15 pruebas visuales (JPG + HTML editable) con citas textuales resaltadas.
 - **`tools/`** — Scripts de auditoría automatizada (link checker, grammar checker, generador de inline-links).
 - **`docs/superpowers/`** — Spec + plan de la auditoría de integridad (transparencia metodológica).
 - **Reportes:** `AUDIT_SUMMARY.md`, `link_audit_report.md`, `grammar_audit_report.md`, `semantic_audit_report.md`, `fixes_applied.md`.
 
+## 🎨 Diagramas y visuales incluidos
+
+Cada sección narrativa del cuerpo tiene su visual propio, además de tablas y stat grids:
+
+| Sección | Visual |
+|---|---|
+| 02 Pensiones | Flujo 4 etapas AFP→gestoras→armas→Gaza |
+| 03 Noruega | Timeline horizontal: desinvierte→presión EE.UU.→pausa + contraste colombiano |
+| 04 Albanese | Barras top proveedores armas + 63 estados por categoría de complicidad |
+| 05 Italia | Cadena responsabilidad italiana + 4 denunciados CPI |
+| 06 Pruebas | Distribución 15 piezas por tipo (sentencias, leyes, decretos, etc.) |
+| 07 Cerimedo | Diagrama radial Numen (13 países + clientes presidenciales) |
+| 08 Negre | Timeline 6 hitos + red de 5 personas (Cerimedo, Negre, Ospina, De la Espriella) |
+| 09 Thomas Greg | Waffle chart 26/27 contratos + concentración 62,5% del valor |
+| 10 Elecciones | Tabla resultados + diagrama del margen + comparativa 1v vs 2v |
+
+## 📑 Temas cubiertos (en orden de aparición en `investigacion.html`)
+
+1. **Quién paga las noticias** (Valorem, NED, Open Society, USAID, Meta — para medios tradicionales e "independientes")
+2. **El dinero de las pensiones que financia la guerra en Gaza** (Porvenir, Protección, Colfondos, Skandia → BlackRock, JP Morgan, Invesco → Elbit, Lockheed, Leonardo, Caterpillar, Palantir)
+3. **El precedente del Fondo de Pensiones Noruego** (desinversión ética de Caterpillar y bancos israelíes, luego revertida por presión de EE.UU.)
+4. **El informe de Francesca Albanese y los 63 estados cómplices** (incluyendo Italia, EE.UU. y Alemania como los 2 mayores proveedores)
+5. **El caso Italia** (Leonardo S.p.A. 30,2% del Estado italiano, 4 funcionarios denunciados en CPI)
+6. **15 pruebas documentales** (sentencias, autos, resoluciones, leyes, decretos)
+7. **Fernando Cerimedo y Numen Group** (audiencia 28/08/2026, 13 países, 6 clientes presidenciales documentados)
+8. **Javier Negre y La Derecha Diario Colombia** (conexión con campaña De la Espriella, 5.279 publicaciones)
+9. **Los hermanos Bautista y Thomas Greg & Sons** (26/27 contratos electorales, $4,4B acumulados, sentencia Consejo de Estado 2018)
+10. **Las elecciones de Colombia 2026** (resultados, denuncias de fraude, margen 1,6 pp en 2ª vuelta)
+11. **Bibliografía maestra** (autogenerada, ~60 fuentes únicas, buscable)
+12. **Metodología y auditoría** (transparencia del proceso)
+13. **Tabla de tiempo** (19 eventos cronológicos 2018-2026)
+
 ## 🚀 Deploy
 
-Para publicar la página, sigue [`DEPLOY.md`](DEPLOY.md). En resumen:
+El sitio está actualmente publicado en `https://2q5a5sdg8o2sn.space.minimax.io` vía `website_deploy` (re-deploys in-place con el `node_id` original — las URLs se mantienen estables entre iteraciones).
 
+Para auto-hospedaje futuro vía GitHub Pages, ver [`DEPLOY.md`](DEPLOY.md):
 1. Crea un repo público en GitHub
 2. Conecta y haz push
 3. Activa GitHub Pages (Settings → Pages → `main` branch + `/ (root)`)
-4. Tu URL pública: `https://lerius700-cmyk.github.io/tu-plata-en-la-guerra/`
+4. Tu URL pública: `https://<tu-usuario>.github.io/tu-plata-en-la-guerra/`
 
 ## 📂 Estructura completa
 

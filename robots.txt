@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /dashboard.html
+
+Sitemap: https://2q5a5sdg8o2sn.space.minimax.io/sitemap.xml
